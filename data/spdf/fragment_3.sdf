@@ -1,0 +1,2575 @@
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   16.8300   -7.2410   13.5320 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.7070   -6.8780   12.3740 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9350   -6.8800   14.4700 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <MODEL>  (1) 
+1
+
+>  <REMARK>  (1) 
+ VINA RESULT:    -1.948      0.000      0.000
+ INTER + INTRA:          -2.005
+ INTER:                  -2.005
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (1) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   17.8650  -12.4630    8.8620 C   0  0  0  0  0  0  0  0  0  0  0  0
+   19.0270  -12.3910    8.4990 O   0  0  0  0  0  0  0  0  0  0  0  0
+   16.8690  -11.9820    8.0950 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (2) 
+ VINA RESULT:    -1.916      7.036      7.229
+ INTER + INTRA:          -1.972
+ INTER:                  -1.972
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (2) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   17.5980  -12.5320    8.6090 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.8770  -11.7490    8.0130 O   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9310  -12.3530    8.6490 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (3) 
+ VINA RESULT:    -1.905      7.276      7.476
+ INTER + INTRA:          -1.961
+ INTER:                  -1.961
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (3) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   18.1430   -7.6360   13.8950 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9370   -6.8780   14.4270 O   0  0  0  0  0  0  0  0  0  0  0  0
+   17.1930   -7.1720   13.0640 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (4) 
+ VINA RESULT:    -1.880      1.672      1.995
+ INTER + INTRA:          -1.935
+ INTER:                  -1.935
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (4) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   17.8440   -7.6600   13.7990 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.9250   -8.8700   13.9370 O   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9350   -6.8780   13.8970 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  1  2  2  0
+M  END
+>  <REMARK>  (5) 
+ VINA RESULT:    -1.856      1.996      2.347
+ INTER + INTRA:          -1.910
+ INTER:                  -1.910
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (5) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   18.1080   -8.8130   14.0940 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.3490   -9.9930   13.9010 O   0  0  0  0  0  0  0  0  0  0  0  0
+   16.9140   -8.4190   14.5730 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (6) 
+ VINA RESULT:    -1.698      2.241      2.446
+ INTER + INTRA:          -1.747
+ INTER:                  -1.747
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (6) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   18.0230  -10.9070   14.0820 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.1220  -11.5610   14.5810 O   0  0  0  0  0  0  0  0  0  0  0  0
+   19.0320  -11.5080   13.4260 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (7) 
+ VINA RESULT:    -1.524      3.907      4.361
+ INTER + INTRA:          -1.568
+ INTER:                  -1.568
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (7) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   17.6840  -12.9730    9.8230 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.9540  -13.3450   10.7270 O   0  0  0  0  0  0  0  0  0  0  0  0
+   19.0060  -12.8180   10.0200 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  1  2  2  0
+M  END
+>  <REMARK>  (8) 
+ VINA RESULT:    -1.511      6.908      7.239
+ INTER + INTRA:          -1.555
+ INTER:                  -1.555
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (8) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   17.7570  -12.1080   13.1330 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.5740  -11.2470   13.4160 O   0  0  0  0  0  0  0  0  0  0  0  0
+   16.9970  -12.6810   14.0830 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  1  3  1  0
+M  END
+>  <REMARK>  (9) 
+ VINA RESULT:    -1.386      5.051      5.236
+ INTER + INTRA:          -1.427
+ INTER:                  -1.427
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (9) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   17.5910  -12.0800   13.2260 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.4770  -12.3840   12.0500 O   0  0  0  0  0  0  0  0  0  0  0  0
+   17.0460  -12.8400   14.1940 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <ODEL 1>  (10) 
+0
+
+>  <REMARK>  (10) 
+ VINA RESULT:    -1.380      4.814      5.000
+ INTER + INTRA:          -1.420
+ INTER:                  -1.420
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (10) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   17.5510  -12.8060   12.3640 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.8430  -13.3080   13.2200 O   0  0  0  0  0  0  0  0  0  0  0  0
+   18.6210  -12.0610   12.6990 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  1  2  2  0
+M  END
+>  <ODEL 1>  (11) 
+1
+
+>  <REMARK>  (11) 
+ VINA RESULT:    -1.304      5.742      6.040
+ INTER + INTRA:          -1.342
+ INTER:                  -1.342
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (11) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   18.2340  -11.2370   13.8350 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.4050  -10.0290   13.8460 O   0  0  0  0  0  0  0  0  0  0  0  0
+   19.0260  -12.0420   13.1040 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <ODEL 1>  (12) 
+2
+
+>  <REMARK>  (12) 
+ VINA RESULT:    -1.218      4.291      4.667
+ INTER + INTRA:          -1.253
+ INTER:                  -1.253
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (12) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.1110   -7.7960   17.9040 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.3810   -7.4700   16.9830 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1500   -9.0680   18.3400 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <MODEL>  (13) 
+1
+
+>  <REMARK>  (13) 
+ VINA RESULT:    -2.687      0.000      0.000
+ INTER + INTRA:          -2.766
+ INTER:                  -2.766
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (13) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.3950   -6.9050   16.9970 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.6560   -6.8780   15.8060 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.1210   -6.9400   17.4260 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (14) 
+ VINA RESULT:    -2.667      1.508      1.725
+ INTER + INTRA:          -2.745
+ INTER:                  -2.745
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (14) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.6020   -7.5140   18.1000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5340   -6.9020   18.5950 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3930   -8.8110   18.3910 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  1  2  2  0
+M  END
+>  <REMARK>  (15) 
+ VINA RESULT:    -2.605      1.473      1.764
+ INTER + INTRA:          -2.681
+ INTER:                  -2.681
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (15) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   14.6450   -9.9920   17.7720 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0390   -8.9170   18.1910 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.2500  -10.9620   18.6170 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  1  3  1  0
+M  END
+>  <REMARK>  (16) 
+ VINA RESULT:    -2.394      2.311      2.891
+ INTER + INTRA:          -2.464
+ INTER:                  -2.464
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (16) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   14.9600  -10.2230   17.4320 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.2770  -10.6290   18.3590 O   0  0  0  0  0  0  0  0  0  0  0  0
+   16.2930  -10.4030   17.4250 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (17) 
+ VINA RESULT:    -2.327      2.954      3.045
+ INTER + INTRA:          -2.395
+ INTER:                  -2.395
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (17) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.6290   -9.4190   17.2040 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.6910   -9.9880   17.0140 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3710   -8.8080   18.3740 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (18) 
+ VINA RESULT:    -2.258      2.053      2.704
+ INTER + INTRA:          -2.324
+ INTER:                  -2.324
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (18) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.5800   -7.9740   16.4210 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.6350   -8.0130   17.0320 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.2240   -6.8790   15.7240 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (19) 
+ VINA RESULT:    -2.213      2.033      2.815
+ INTER + INTRA:          -2.278
+ INTER:                  -2.278
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (19) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   14.7630   -9.5410   17.4170 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.4680   -9.0850   16.3240 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4050   -8.7900   18.3290 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (20) 
+ VINA RESULT:    -2.192      2.047      2.536
+ INTER + INTRA:          -2.256
+ INTER:                  -2.256
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (20) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.1810   -9.1960   17.0970 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5230   -9.3710   16.0840 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.8740   -9.8350   18.2410 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (21) 
+ VINA RESULT:    -2.166      1.692      1.719
+ INTER + INTRA:          -2.229
+ INTER:                  -2.229
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (21) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   14.7390  -11.1660   17.4810 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.2900  -12.2040   17.1540 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.2080  -11.0210   18.7090 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <ODEL 1>  (22) 
+0
+
+>  <REMARK>  (22) 
+ VINA RESULT:    -2.136      3.264      3.721
+ INTER + INTRA:          -2.198
+ INTER:                  -2.198
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (22) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   14.8080   -8.4810   17.1680 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9620   -9.1570   18.1710 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.8190   -9.0430   15.9450 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <ODEL 1>  (23) 
+1
+
+>  <REMARK>  (23) 
+ VINA RESULT:    -2.089      1.532      2.001
+ INTER + INTRA:          -2.150
+ INTER:                  -2.150
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (23) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   17.2730   -8.4160   16.3480 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.4760   -8.9580   17.0960 O   0  0  0  0  0  0  0  0  0  0  0  0
+   17.9760   -7.3400   16.7470 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  1  2  2  0
+M  END
+>  <ODEL 1>  (24) 
+2
+
+>  <REMARK>  (24) 
+ VINA RESULT:    -1.908      3.152      3.449
+ INTER + INTRA:          -1.964
+ INTER:                  -1.964
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (24) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   16.8690   -9.3220   16.5780 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.0950   -8.1510   16.8330 O   0  0  0  0  0  0  0  0  0  0  0  0
+   16.1660  -10.0920   17.4280 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  1  3  1  0
+M  END
+>  <ODEL 1>  (25) 
+3
+
+>  <REMARK>  (25) 
+ VINA RESULT:    -1.890      2.891      3.184
+ INTER + INTRA:          -1.945
+ INTER:                  -1.945
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (25) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   14.7680  -12.9350   19.1790 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3340  -13.4180   18.2130 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.2480  -11.6960   19.1290 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  2  0
+  3  1  1  0
+M  END
+>  <ODEL 1>  (26) 
+4
+
+>  <REMARK>  (26) 
+ VINA RESULT:    -1.842      4.930      5.578
+ INTER + INTRA:          -1.895
+ INTER:                  -1.895
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (26) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   16.0810  -11.3680   17.0750 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.2560  -10.5700   17.4890 O   0  0  0  0  0  0  0  0  0  0  0  0
+   16.8300  -12.0930   17.9250 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  1  3  1  0
+M  END
+>  <ODEL 1>  (27) 
+5
+
+>  <REMARK>  (27) 
+ VINA RESULT:    -1.578      3.578      4.156
+ INTER + INTRA:          -1.624
+ INTER:                  -1.624
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (27) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   17.5580  -10.7430   15.4040 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.7640  -10.7740   16.6060 O   0  0  0  0  0  0  0  0  0  0  0  0
+   16.9070  -11.7460   14.7870 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <ODEL 1>  (28) 
+6
+
+>  <REMARK>  (28) 
+ VINA RESULT:    -1.516      4.581      4.884
+ INTER + INTRA:          -1.561
+ INTER:                  -1.561
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (28) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.3700   -4.5090   10.8290 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5580   -4.2430   10.9020 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5460   -3.7900   10.0460 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <MODEL>  (29) 
+1
+
+>  <REMARK>  (29) 
+ VINA RESULT:    -3.173      0.000      0.000
+ INTER + INTRA:          -3.265
+ INTER:                  -3.265
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (29) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.5710   -3.6030   10.0070 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8200   -2.7940    9.1290 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.3020   -3.9520   10.2880 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (30) 
+ VINA RESULT:    -3.022      1.797      1.819
+ INTER + INTRA:          -3.110
+ INTER:                  -3.110
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (30) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.7250   -3.5660   10.1330 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5590   -4.2370   10.7180 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.4200   -3.8930   10.1750 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  1  2  2  0
+M  END
+>  <REMARK>  (31) 
+ VINA RESULT:    -3.020      1.494      2.177
+ INTER + INTRA:          -3.108
+ INTER:                  -3.108
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (31) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.1030   -4.5540   10.7390 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.2640   -5.2270   11.3140 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.7640   -3.7530    9.7130 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (32) 
+ VINA RESULT:    -3.011      1.330      1.714
+ INTER + INTRA:          -3.099
+ INTER:                  -3.099
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (32) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   17.4120   -3.6060   10.2740 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.8700   -2.5950    9.8580 O   0  0  0  0  0  0  0  0  0  0  0  0
+   18.6310   -3.9690    9.8350 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (33) 
+ VINA RESULT:    -2.989      2.189      2.826
+ INTER + INTRA:          -3.076
+ INTER:                  -3.076
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (33) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   17.0370   -3.8290   10.4910 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5060   -4.4680   11.3840 O   0  0  0  0  0  0  0  0  0  0  0  0
+   18.3250   -4.0380   10.1630 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (34) 
+ VINA RESULT:    -2.882      2.218      2.858
+ INTER + INTRA:          -2.966
+ INTER:                  -2.966
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (34) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   16.5900   -4.3740   10.8880 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.1510   -3.5300   10.1240 O   0  0  0  0  0  0  0  0  0  0  0  0
+   17.9050   -4.4390   11.1670 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (35) 
+ VINA RESULT:    -2.853      1.302      2.067
+ INTER + INTRA:          -2.936
+ INTER:                  -2.936
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (35) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.2720   -5.6900   11.9570 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.1430   -5.6130   11.5010 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5050   -6.3130   13.1270 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (36) 
+ VINA RESULT:    -2.788      2.149      2.795
+ INTER + INTRA:          -2.870
+ INTER:                  -2.870
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (36) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   16.0900   -3.4560   10.0460 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1750   -4.1950   10.3690 O   0  0  0  0  0  0  0  0  0  0  0  0
+   17.3700   -3.7910   10.2920 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  1  2  2  0
+M  END
+>  <REMARK>  (37) 
+ VINA RESULT:    -2.715      1.808      2.785
+ INTER + INTRA:          -2.794
+ INTER:                  -2.794
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (37) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   16.8150   -5.0450   11.8010 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.4630   -5.9060   12.5910 O   0  0  0  0  0  0  0  0  0  0  0  0
+   18.0840   -4.5970   11.7860 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <ODEL 1>  (38) 
+0
+
+>  <REMARK>  (38) 
+ VINA RESULT:    -2.590      2.348      2.691
+ INTER + INTRA:          -2.666
+ INTER:                  -2.666
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (38) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.9850   -2.5180    9.1510 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8680   -2.6490    7.9430 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9420   -2.1330    9.9090 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <ODEL 1>  (39) 
+1
+
+>  <REMARK>  (39) 
+ VINA RESULT:    -2.521      2.966      3.130
+ INTER + INTRA:          -2.595
+ INTER:                  -2.595
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (39) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   16.1970   -5.6210   12.1140 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.7050   -4.6940   11.5040 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.8600   -5.7460   12.1950 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <ODEL 1>  (40) 
+2
+
+>  <REMARK>  (40) 
+ VINA RESULT:    -2.444      2.125      2.274
+ INTER + INTRA:          -2.516
+ INTER:                  -2.516
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (40) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   17.6870   -3.5560   10.2490 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.6970   -3.7450    9.5920 O   0  0  0  0  0  0  0  0  0  0  0  0
+   16.9510   -2.4420   10.0830 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  2  0
+  3  1  1  0
+M  END
+>  <ODEL 1>  (41) 
+3
+
+>  <REMARK>  (41) 
+ VINA RESULT:    -2.113      2.367      2.656
+ INTER + INTRA:          -2.174
+ INTER:                  -2.174
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (41) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.7180   -6.2700   17.0900 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7100   -6.5690   15.9080 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.8780   -5.3380   17.5740 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <MODEL>  (42) 
+1
+
+>  <REMARK>  (42) 
+ VINA RESULT:    -3.377      0.000      0.000
+ INTER + INTRA:          -3.476
+ INTER:                  -3.476
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (42) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.5840   -6.4710   17.1360 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5630   -6.7510   15.9490 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.6690   -5.6400   17.6670 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (43) 
+ VINA RESULT:    -3.141      0.263      0.263
+ INTER + INTRA:          -3.233
+ INTER:                  -3.233
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (43) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.8540   -6.3250   18.0220 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.6790   -6.7630   19.1470 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0070   -5.4250   17.4900 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (44) 
+ VINA RESULT:    -3.036      1.350      1.783
+ INTER + INTRA:          -3.125
+ INTER:                  -3.125
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (44) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   16.6020   -6.5810   16.5430 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.5130   -6.4570   15.7410 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3190   -6.4680   16.1550 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (45) 
+ VINA RESULT:    -2.581      1.110      1.414
+ INTER + INTRA:          -2.656
+ INTER:                  -2.656
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (45) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.4550   -6.5400   17.8270 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9690   -6.3500   18.9300 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.7230   -6.3740   16.7100 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (46) 
+ VINA RESULT:    -2.481      1.190      1.783
+ INTER + INTRA:          -2.553
+ INTER:                  -2.553
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (46) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.8070   -6.5930   18.0350 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.7650   -6.5100   17.4050 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8300   -6.3900   19.3650 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (47) 
+ VINA RESULT:    -2.268      1.423      1.590
+ INTER + INTRA:          -2.334
+ INTER:                  -2.334
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (47) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   15.3080   -6.3640   17.3760 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.3410   -6.9350   17.0670 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9830   -5.1790   16.8280 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (48) 
+ VINA RESULT:    -0.686      1.294      1.427
+ INTER + INTRA:          -0.706
+ INTER:                  -0.706
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (48) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   23.9520   -7.4580   12.8950 C   0  0  0  0  0  0  0  0  0  0  0  0
+   25.0090   -6.8780   13.0810 O   0  0  0  0  0  0  0  0  0  0  0  0
+   22.7790   -6.8780   13.2090 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  1  3  1  0
+M  END
+>  <MODEL>  (49) 
+1
+
+>  <REMARK>  (49) 
+ VINA RESULT:    -2.118      0.000      0.000
+ INTER + INTRA:          -2.180
+ INTER:                  -2.180
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (49) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   23.7810   -7.5080   12.3680 C   0  0  0  0  0  0  0  0  0  0  0  0
+   23.0570   -6.8800   13.1220 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.5290   -6.8790   11.4430 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (50) 
+ VINA RESULT:    -2.086      0.917      1.609
+ INTER + INTRA:          -2.147
+ INTER:                  -2.147
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (50) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   23.5370   -7.6640   12.8660 C   0  0  0  0  0  0  0  0  0  0  0  0
+   23.3520   -8.8310   12.5620 O   0  0  0  0  0  0  0  0  0  0  0  0
+   22.5140   -6.8780   13.2470 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (51) 
+ VINA RESULT:    -2.048      1.435      1.739
+ INTER + INTRA:          -2.107
+ INTER:                  -2.107
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (51) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   24.1140   -7.8150   12.2080 C   0  0  0  0  0  0  0  0  0  0  0  0
+   24.6660   -8.8910   12.3670 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.3960   -7.0430   11.1430 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (52) 
+ VINA RESULT:    -2.010      1.792      1.997
+ INTER + INTRA:          -2.069
+ INTER:                  -2.069
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (52) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   24.3450   -8.7840   12.3630 C   0  0  0  0  0  0  0  0  0  0  0  0
+   24.0580   -9.9260   12.0440 O   0  0  0  0  0  0  0  0  0  0  0  0
+   25.6270   -8.3750   12.3880 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (53) 
+ VINA RESULT:    -1.790      1.942      2.554
+ INTER + INTRA:          -1.842
+ INTER:                  -1.842
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (53) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   24.4130   -7.5480   12.0310 C   0  0  0  0  0  0  0  0  0  0  0  0
+   24.4350   -7.5270   10.8120 O   0  0  0  0  0  0  0  0  0  0  0  0
+   25.5510   -7.4770   12.7460 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (54) 
+ VINA RESULT:    -1.764      1.706      2.070
+ INTER + INTRA:          -1.815
+ INTER:                  -1.815
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (54) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   23.9490   -8.0820   11.9490 C   0  0  0  0  0  0  0  0  0  0  0  0
+   24.3910   -7.4100   11.0310 O   0  0  0  0  0  0  0  0  0  0  0  0
+   23.1980   -7.5240   12.9160 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (55) 
+ VINA RESULT:    -1.651      1.319      1.371
+ INTER + INTRA:          -1.699
+ INTER:                  -1.699
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (55) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   24.5330   -8.1930   10.9240 C   0  0  0  0  0  0  0  0  0  0  0  0
+   24.2300   -9.0160   10.0760 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.5920   -6.8820   10.6260 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (56) 
+ VINA RESULT:    -1.600      2.485      2.751
+ INTER + INTRA:          -1.647
+ INTER:                  -1.647
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (56) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   24.3600   -8.2150   10.9580 C   0  0  0  0  0  0  0  0  0  0  0  0
+   24.9280   -7.2330   10.5100 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.1550   -9.3040   10.1950 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (57) 
+ VINA RESULT:    -1.556      2.474      2.660
+ INTER + INTRA:          -1.602
+ INTER:                  -1.602
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (57) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   21.4070  -11.7970    8.1220 C   0  0  0  0  0  0  0  0  0  0  0  0
+   20.2040  -11.9830    8.2080 O   0  0  0  0  0  0  0  0  0  0  0  0
+   21.8960  -10.6450    7.6300 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <ODEL 1>  (58) 
+0
+
+>  <REMARK>  (58) 
+ VINA RESULT:    -1.475      6.697      7.048
+ INTER + INTRA:          -1.518
+ INTER:                  -1.518
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (58) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   21.8440  -11.8760    8.1220 C   0  0  0  0  0  0  0  0  0  0  0  0
+   22.8660  -12.4880    8.3820 O   0  0  0  0  0  0  0  0  0  0  0  0
+   21.8910  -10.6090    7.6720 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <ODEL 1>  (59) 
+1
+
+>  <REMARK>  (59) 
+ VINA RESULT:    -1.369      6.628      6.903
+ INTER + INTRA:          -1.409
+ INTER:                  -1.409
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (59) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   24.3300  -10.0200   11.8130 C   0  0  0  0  0  0  0  0  0  0  0  0
+   24.0100   -9.0080   12.4140 O   0  0  0  0  0  0  0  0  0  0  0  0
+   25.2720   -9.9850   10.8520 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <ODEL 1>  (60) 
+2
+
+>  <REMARK>  (60) 
+ VINA RESULT:    -1.357      2.708      3.238
+ INTER + INTRA:          -1.396
+ INTER:                  -1.396
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (60) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   24.2720   -9.4520   11.9810 C   0  0  0  0  0  0  0  0  0  0  0  0
+   23.9240  -10.5940   12.2320 O   0  0  0  0  0  0  0  0  0  0  0  0
+   23.7540   -8.4080   12.6530 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  1  3  1  0
+M  END
+>  <ODEL 1>  (61) 
+3
+
+>  <REMARK>  (61) 
+ VINA RESULT:    -1.341      2.461      2.664
+ INTER + INTRA:          -1.380
+ INTER:                  -1.380
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (61) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   23.6250  -11.9180   11.8130 C   0  0  0  0  0  0  0  0  0  0  0  0
+   23.4920  -12.7060   12.7350 O   0  0  0  0  0  0  0  0  0  0  0  0
+   23.2790  -12.2560   10.5580 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <ODEL 1>  (62) 
+4
+
+>  <REMARK>  (62) 
+ VINA RESULT:    -1.150      4.605      4.925
+ INTER + INTRA:          -1.184
+ INTER:                  -1.184
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (62) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   24.5410   -9.5140    9.7460 C   0  0  0  0  0  0  0  0  0  0  0  0
+   23.7780  -10.3300    9.2560 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.1140   -8.6380   10.6750 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <ODEL 1>  (63) 
+5
+
+>  <REMARK>  (63) 
+ VINA RESULT:    -1.097      3.843      4.106
+ INTER + INTRA:          -1.129
+ INTER:                  -1.129
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (63) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   23.1520  -12.4720   11.9640 C   0  0  0  0  0  0  0  0  0  0  0  0
+   22.6350  -12.7250   10.8890 O   0  0  0  0  0  0  0  0  0  0  0  0
+   23.6500  -11.2490   12.2220 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <ODEL 1>  (64) 
+6
+
+>  <REMARK>  (64) 
+ VINA RESULT:    -1.051      4.901      5.337
+ INTER + INTRA:          -1.082
+ INTER:                  -1.082
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (64) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   23.7160  -11.7050   11.8700 C   0  0  0  0  0  0  0  0  0  0  0  0
+   23.9250  -10.5530   12.2130 O   0  0  0  0  0  0  0  0  0  0  0  0
+   23.2430  -12.6120   12.7450 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  1  3  1  0
+M  END
+>  <ODEL 1>  (65) 
+7
+
+>  <REMARK>  (65) 
+ VINA RESULT:    -1.030      4.257      4.559
+ INTER + INTRA:          -1.060
+ INTER:                  -1.060
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (65) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   21.9100  -12.9720   12.3030 C   0  0  0  0  0  0  0  0  0  0  0  0
+   21.1850  -13.1690   13.2650 O   0  0  0  0  0  0  0  0  0  0  0  0
+   21.5090  -13.2880   11.0580 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <ODEL 1>  (66) 
+8
+
+>  <REMARK>  (66) 
+ VINA RESULT:    -1.025      5.796      6.112
+ INTER + INTRA:          -1.054
+ INTER:                  -1.054
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (66) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   19.5480  -12.8780   12.7470 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9080  -12.7690   11.7140 O   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9280  -12.9700   13.9380 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <ODEL 1>  (67) 
+9
+
+>  <REMARK>  (67) 
+ VINA RESULT:    -0.922      6.867      7.064
+ INTER + INTRA:          -0.949
+ INTER:                  -0.949
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (67) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   19.4790  -13.1960   10.6000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9080  -13.0610   11.6700 O   0  0  0  0  0  0  0  0  0  0  0  0
+   20.7570  -13.6150   10.5460 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <ODEL 2>  (68) 
+0
+
+>  <REMARK>  (68) 
+ VINA RESULT:    -0.913      7.487      7.783
+ INTER + INTRA:          -0.939
+ INTER:                  -0.939
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (68) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   19.4520  -13.3000   15.1160 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9090  -12.4200   14.4680 O   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9100  -13.7480   16.2630 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <MODEL>  (69) 
+1
+
+>  <REMARK>  (69) 
+ VINA RESULT:    -0.919      0.000      0.000
+ INTER + INTRA:          -0.946
+ INTER:                  -0.946
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (69) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   19.6120  -13.6420   15.4870 C   0  0  0  0  0  0  0  0  0  0  0  0
+   19.1510  -14.0010   16.5570 O   0  0  0  0  0  0  0  0  0  0  0  0
+   20.8530  -14.0020   15.1120 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (70) 
+ VINA RESULT:    -0.732      1.505      2.070
+ INTER + INTRA:          -0.753
+ INTER:                  -0.753
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (70) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   19.5540  -13.4330   15.2100 C   0  0  0  0  0  0  0  0  0  0  0  0
+   20.5430  -13.9880   14.7610 O   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9170  -13.9190   16.2900 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (71) 
+ VINA RESULT:    -0.725      1.338      1.720
+ INTER + INTRA:          -0.746
+ INTER:                  -0.746
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (71) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   19.9230  -13.3760   15.3230 C   0  0  0  0  0  0  0  0  0  0  0  0
+   20.9980  -13.8130   14.9480 O   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9080  -13.1970   14.4580 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (72) 
+ VINA RESULT:     0.347      1.552      2.031
+ INTER + INTRA:           0.357
+ INTER:                   0.357
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (72) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   18.9420  -13.3070   18.5050 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9080  -14.0010   19.5070 O   0  0  0  0  0  0  0  0  0  0  0  0
+   19.0100  -11.9660   18.5930 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  1  2  2  0
+M  END
+>  <REMARK>  (73) 
+ VINA RESULT:     0.371      3.122      3.773
+ INTER + INTRA:           0.381
+ INTER:                   0.381
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (73) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   24.8980   -6.1330   13.1550 C   0  0  0  0  0  0  0  0  0  0  0  0
+   26.0310   -6.5350   12.9480 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.6740   -4.8640   13.5440 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <MODEL>  (74) 
+1
+
+>  <REMARK>  (74) 
+ VINA RESULT:    -2.448      0.000      0.000
+ INTER + INTRA:          -2.519
+ INTER:                  -2.519
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (74) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   24.5370   -6.1140   13.1350 C   0  0  0  0  0  0  0  0  0  0  0  0
+   23.4040   -6.5650   13.1320 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.7680   -4.8260   13.4500 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (75) 
+ VINA RESULT:    -2.425      1.264      1.716
+ INTER + INTRA:          -2.496
+ INTER:                  -2.496
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (75) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   25.2560   -5.1850   12.6940 C   0  0  0  0  0  0  0  0  0  0  0  0
+   26.0280   -4.8760   11.8020 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.8190   -4.2710   13.5790 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (76) 
+ VINA RESULT:    -2.292      1.221      1.318
+ INTER + INTRA:          -2.359
+ INTER:                  -2.359
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (76) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   25.0160   -6.0080   13.0400 C   0  0  0  0  0  0  0  0  0  0  0  0
+   25.7210   -7.0020   12.9780 O   0  0  0  0  0  0  0  0  0  0  0  0
+   23.7360   -6.0920   13.4450 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (77) 
+ VINA RESULT:    -2.122      1.178      1.686
+ INTER + INTRA:          -2.184
+ INTER:                  -2.184
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (77) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   25.6530   -4.6840   12.4110 C   0  0  0  0  0  0  0  0  0  0  0  0
+   26.0090   -5.7530   11.9430 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.8310   -4.6340   13.4750 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <REMARK>  (78) 
+ VINA RESULT:    -2.080      1.976      2.491
+ INTER + INTRA:          -2.141
+ INTER:                  -2.141
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (78) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   25.0210   -1.9550    8.7150 C   0  0  0  0  0  0  0  0  0  0  0  0
+   24.9080   -0.7740    8.4300 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.1870   -2.8750    8.1980 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (79) 
+ VINA RESULT:    -1.721      5.903      6.348
+ INTER + INTRA:          -1.771
+ INTER:                  -1.771
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (79) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   25.2540   -2.1070    8.7790 C   0  0  0  0  0  0  0  0  0  0  0  0
+   25.9230   -2.5100    9.7160 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.2040   -2.8140    8.3250 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (80) 
+ VINA RESULT:    -1.652      5.993      6.311
+ INTER + INTRA:          -1.701
+ INTER:                  -1.701
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (80) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   25.1470   -2.6250    8.2180 C   0  0  0  0  0  0  0  0  0  0  0  0
+   25.5460   -2.3590    9.3390 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.5440   -1.6930    7.4580 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (81) 
+ VINA RESULT:    -1.558      6.023      6.250
+ INTER + INTRA:          -1.604
+ INTER:                  -1.604
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (81) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   25.2710   -0.8240    9.2240 C   0  0  0  0  0  0  0  0  0  0  0  0
+   25.8780   -0.5830   10.2540 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.5080    0.1150    8.6340 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (82) 
+ VINA RESULT:    -1.420      6.352      6.742
+ INTER + INTRA:          -1.462
+ INTER:                  -1.462
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (82) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   25.4610   -2.9820    8.3180 C   0  0  0  0  0  0  0  0  0  0  0  0
+   25.5210   -1.8460    7.8760 O   0  0  0  0  0  0  0  0  0  0  0  0
+   25.5740   -3.2170    9.6380 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <ODEL 1>  (83) 
+0
+
+>  <REMARK>  (83) 
+ VINA RESULT:    -1.409      5.696      5.928
+ INTER + INTRA:          -1.450
+ INTER:                  -1.450
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (83) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   25.9120   -5.9410   11.0670 C   0  0  0  0  0  0  0  0  0  0  0  0
+   26.0320   -4.8130   11.5150 O   0  0  0  0  0  0  0  0  0  0  0  0
+   25.7670   -6.9990   11.8850 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  1  3  1  0
+M  END
+>  <ODEL 1>  (84) 
+1
+
+>  <REMARK>  (84) 
+ VINA RESULT:    -1.020      2.519      3.003
+ INTER + INTRA:          -1.050
+ INTER:                  -1.050
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (84) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   24.9410   -2.4440    7.7880 C   0  0  0  0  0  0  0  0  0  0  0  0
+   25.3240   -3.5570    7.4660 O   0  0  0  0  0  0  0  0  0  0  0  0
+   23.6720   -2.2370    8.1840 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <ODEL 1>  (85) 
+2
+
+>  <REMARK>  (85) 
+ VINA RESULT:    -0.509      6.558      6.768
+ INTER + INTRA:          -0.524
+ INTER:                  -0.524
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (85) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   23.5850   -6.7370   13.0860 C   0  0  0  0  0  0  0  0  0  0  0  0
+   24.0680   -6.3340   14.1310 O   0  0  0  0  0  0  0  0  0  0  0  0
+   22.2690   -6.9980   12.9870 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <ODEL 1>  (86) 
+3
+
+>  <REMARK>  (86) 
+ VINA RESULT:    -0.168      1.970      2.236
+ INTER + INTRA:          -0.173
+ INTER:                  -0.173
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (86) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   20.2930   -6.6180   15.1020 C   0  0  0  0  0  0  0  0  0  0  0  0
+   21.3390   -6.3750   14.5230 O   0  0  0  0  0  0  0  0  0  0  0  0
+   20.2380   -6.6580   16.4460 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  3  1  0
+  2  1  2  0
+M  END
+>  <MODEL>  (87) 
+1
+
+>  <REMARK>  (87) 
+ VINA RESULT:     4.060      0.000      0.000
+ INTER + INTRA:           4.179
+ INTER:                   4.179
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (87) 
+F 1
+
+$$$$
+=
+     RDKit          3D
+
+  3  2  0  0  0  0  0  0  0  0999 V2000
+   20.4080    0.0420   15.9520 C   0  0  0  0  0  0  0  0  0  0  0  0
+   20.3090    0.1220   17.1660 O   0  0  0  0  0  0  0  0  0  0  0  0
+   19.3180   -0.1110   15.1770 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0
+  3  1  1  0
+M  END
+>  <REMARK>  (88) 
+ VINA RESULT:     6.457      6.832      7.024
+ INTER + INTRA:           6.646
+ INTER:                   6.646
+ INTRA:                   0.000
+ UNBOUND:                 0.000
+  Name = 
+  2 active torsions:
+  status: ('A' for Active; 'I' for Inactive)
+    1  A    between atoms: O_1  and  C_4
+    2  A    between atoms: C_3  and  C_4
+                            x       y       z     vdW  Elec       q    Type
+                         _______ _______ _______ _____ _____    ______ ____
+
+>  <TORSDO>  (88) 
+F 1
+
+$$$$

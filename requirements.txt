@@ -1,0 +1,7 @@
+dimod==0.12.18
+dwave-samplers==1.6.0
+dwave-system==1.28.0
+matplotlib==3.10.1
+numpy==2.2.4
+pandas==2.2.3
+rdkit==2025.9.1
