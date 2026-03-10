@@ -1,11 +1,11 @@
-receptor = aldr2/protein.pdbqt
-ligand = aldr2/fragment4.pdbqt
+receptor = docking_tools/aldr2/protein.pdbqt
+ligand = docking_tools/aldr2/fragment4.pdbqt
 center_x = 18.97
 center_y = -6.94
 center_z = 14.52
 size_x = 16.0
 size_y = 16.0
 size_z = 16.0
-out = temp_output.sdf
-num_modes = 50
-exhaustiveness = 32
+out = docking_tools/temp_output.sdf
+num_modes = 100
+exhaustiveness = 64

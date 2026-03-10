@@ -3,8 +3,8 @@ from shutil import which
 from subprocess import CalledProcessError, run
 
 
-NUM_MODES = 50
-EXHAUSTIVENESS = 32
+NUM_MODES = 100
+EXHAUSTIVENESS = 64
 # Set to True for pure empirical Vina-like scoring instead of GNINA default CNN rescoring.
 EMPIRICAL_VINA_ONLY = False
 
@@ -69,7 +69,8 @@ temp_log = temp_output.with_suffix(".log")
 
 for x, y, z in centers:
     for ligand, output in zip(ligands, outputs):
-        print(f"Docking {ligand} and storing in {output}")
+        print("=" * 80)
+        print(f"\nDocking {ligand} \nand storing in {output}")
         temp_sdf.unlink(missing_ok=True)
         temp_log.unlink(missing_ok=True)
 

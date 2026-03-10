@@ -1,2695 +1,1824 @@
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.9890   -7.1830   12.5700 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.3030   -7.6410   13.8010 C   0  0  0  0  0  0  0  0  0  0  0  0
-   16.2100   -7.5210   14.5820 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.5950   -8.9540   13.6930 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <MODEL>  (1) 
-1
-
->  <REMARK>  (1) 
- VINA RESULT:    -2.692      0.000      0.000
- INTER + INTRA:          -2.692
- INTER:                  -2.692
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (1) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.6750  -11.7580    8.0380 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.2570  -12.7860    8.6910 C   0  0  0  0  0  0  0  0  0  0  0  0
-   17.1460  -12.5560   10.0150 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.5620  -13.9070    8.4030 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (2) 
- VINA RESULT:    -2.691      6.839      7.329
- INTER + INTRA:          -2.691
- INTER:                  -2.691
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (2) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.6640  -13.9450    8.5170 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.3240  -12.7890    8.7440 C   0  0  0  0  0  0  0  0  0  0  0  0
-   16.7120  -11.8150    8.0390 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.2030  -12.4930   10.0550 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  3  2  1  0
-M  END
->  <REMARK>  (3) 
- VINA RESULT:    -2.681      6.798      7.410
- INTER + INTRA:          -2.681
- INTER:                  -2.681
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (3) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.4040  -13.9290    8.2010 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.2560  -12.9160    8.4650 C   0  0  0  0  0  0  0  0  0  0  0  0
-   18.3640  -13.0970    7.7170 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.6700  -11.7660    8.0700 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (4) 
- VINA RESULT:    -2.610      7.055      7.758
- INTER + INTRA:          -2.610
- INTER:                  -2.610
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (4) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.9870  -12.5710   10.2250 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.3720  -12.8790    8.9680 C   0  0  0  0  0  0  0  0  0  0  0  0
-   16.6720  -13.9610    8.5710 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.0340  -11.8470    8.1660 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (5) 
- VINA RESULT:    -2.417      6.697      7.371
- INTER + INTRA:          -2.417
- INTER:                  -2.417
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (5) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.5170   -7.1770   14.4340 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.7080   -7.5510   13.9180 C   0  0  0  0  0  0  0  0  0  0  0  0
-   17.7410   -7.1670   12.6250 F   0  0  0  0  0  0  0  0  0  0  0  0
-   18.6750   -6.8780   14.5770 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  2  4  1  0
-  3  2  1  0
-M  END
->  <REMARK>  (6) 
- VINA RESULT:    -2.358      1.387      2.075
- INTER + INTRA:          -2.358
- INTER:                  -2.358
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (6) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.3570  -14.0020   10.7050 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.3510  -13.1040   10.5400 C   0  0  0  0  0  0  0  0  0  0  0  0
-   17.1300  -12.0770   11.3870 F   0  0  0  0  0  0  0  0  0  0  0  0
-   18.5100  -13.6970   10.8980 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  2  4  1  0
-  2  3  1  0
-M  END
->  <REMARK>  (7) 
- VINA RESULT:    -2.197      5.825      6.567
- INTER + INTRA:          -2.197
- INTER:                  -2.197
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (7) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   17.5570  -11.6810   12.5020 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.9010  -11.4380   13.7850 C   0  0  0  0  0  0  0  0  0  0  0  0
-   16.9070  -11.8940   14.5760 F   0  0  0  0  0  0  0  0  0  0  0  0
-   19.0120  -12.1530   14.0600 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  2  3  1  0
-M  END
->  <REMARK>  (8) 
- VINA RESULT:    -2.162      3.605      3.927
- INTER + INTRA:          -2.162
- INTER:                  -2.162
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (8) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   17.4120  -11.7630   12.3480 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.5630  -12.8030   11.5010 C   0  0  0  0  0  0  0  0  0  0  0  0
-   17.1410  -12.4130   10.2810 F   0  0  0  0  0  0  0  0  0  0  0  0
-   18.8810  -13.0810   11.4170 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (9) 
- VINA RESULT:    -2.144      5.166      5.995
- INTER + INTRA:          -2.144
- INTER:                  -2.144
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (9) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.5240  -13.6990   12.1000 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.4560  -12.8310   11.6550 C   0  0  0  0  0  0  0  0  0  0  0  0
-   17.0950  -12.4280   10.4190 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.4390  -11.7520   12.4660 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  2  4  1  0
-  3  2  1  0
-M  END
->  <ODEL 1>  (10) 
-0
-
->  <REMARK>  (10) 
- VINA RESULT:    -2.142      5.120      5.951
- INTER + INTRA:          -2.142
- INTER:                  -2.142
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (10) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   17.1150  -12.2130   11.2760 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.7360  -12.3700   12.4650 C   0  0  0  0  0  0  0  0  0  0  0  0
-   19.0310  -12.6610   12.2230 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.6900  -11.1890   13.1170 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  3  2  1  0
-M  END
->  <ODEL 1>  (11) 
-1
-
->  <REMARK>  (11) 
- VINA RESULT:    -2.098      4.442      5.349
- INTER + INTRA:          -2.098
- INTER:                  -2.098
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (11) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.5810  -13.3800   13.1110 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.5720  -12.6610   12.5420 C   0  0  0  0  0  0  0  0  0  0  0  0
-   18.6180  -13.4860   12.3310 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.1330  -12.2290   11.3410 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <ODEL 1>  (12) 
-2
-
->  <REMARK>  (12) 
- VINA RESULT:    -2.016      4.797      5.499
- INTER + INTRA:          -2.016
- INTER:                  -2.016
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (12) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   18.6540  -13.4350   12.6890 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.5070  -12.8560   12.2760 C   0  0  0  0  0  0  0  0  0  0  0  0
-   16.4790  -13.5010   12.8630 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.5040  -11.5800   12.7170 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  2  4  1  0
-  2  3  1  0
-M  END
->  <ODEL 1>  (13) 
-3
-
->  <REMARK>  (13) 
- VINA RESULT:    -1.959      4.894      5.806
- INTER + INTRA:          -1.959
- INTER:                  -1.959
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (13) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   18.6000  -12.1850    8.8990 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.8490  -13.0790    9.5760 C   0  0  0  0  0  0  0  0  0  0  0  0
-   18.6830  -13.9260   10.2140 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.1440  -12.4060   10.5100 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  2  4  1  0
-M  END
->  <ODEL 1>  (14) 
-4
-
->  <REMARK>  (14) 
- VINA RESULT:    -1.953      6.440      7.222
- INTER + INTRA:          -1.953
- INTER:                  -1.953
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (14) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   19.0070  -10.7940   13.5730 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.9470  -11.6040   13.7790 C   0  0  0  0  0  0  0  0  0  0  0  0
-   17.0150  -10.9050   14.4590 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.4300  -11.9250   12.5750 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <ODEL 1>  (15) 
-5
-
->  <REMARK>  (15) 
- VINA RESULT:    -1.951      3.830      4.290
- INTER + INTRA:          -1.951
- INTER:                  -1.951
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (15) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   18.4530   -9.5410   13.5350 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.8120   -8.3930   13.8390 C   0  0  0  0  0  0  0  0  0  0  0  0
-   18.6450   -7.6330   14.5800 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.5660   -7.7370   12.6850 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <ODEL 1>  (16) 
-6
-
->  <REMARK>  (16) 
- VINA RESULT:    -1.793      1.489      2.231
- INTER + INTRA:          -1.793
- INTER:                  -1.793
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (16) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.7680  -13.2180   14.5820 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.7370  -12.9720   13.6750 C   0  0  0  0  0  0  0  0  0  0  0  0
-   18.3930  -11.8580   14.0590 F   0  0  0  0  0  0  0  0  0  0  0  0
-   18.6090  -14.0020   13.7100 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  4  1  0
-  2  3  1  0
-  2  1  1  0
-M  END
->  <ODEL 1>  (17) 
-7
-
->  <REMARK>  (17) 
- VINA RESULT:    -1.241      5.018      5.669
- INTER + INTRA:          -1.241
- INTER:                  -1.241
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (17) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   18.1850  -12.7900   12.3340 F   0  0  0  0  0  0  0  0  0  0  0  0
-   18.1560  -11.7960   13.2470 C   0  0  0  0  0  0  0  0  0  0  0  0
-   18.9170  -10.7830   12.7840 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.8840  -11.3540   13.3390 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  3  2  1  0
-M  END
->  <ODEL 1>  (18) 
-8
-
->  <REMARK>  (18) 
- VINA RESULT:    -0.556      4.079      4.649
- INTER + INTRA:          -0.556
- INTER:                  -0.556
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (18) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   15.9130   -6.8780   19.3120 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.6850   -7.6030   18.1970 C   0  0  0  0  0  0  0  0  0  0  0  0
-   16.8590   -7.7520   17.5490 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.2610   -8.8270   18.5770 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  4  1  0
-  2  1  1  0
-  3  2  1  0
-M  END
->  <MODEL>  (19) 
-1
-
->  <REMARK>  (19) 
- VINA RESULT:    -3.681      0.000      0.000
- INTER + INTRA:          -3.681
- INTER:                  -3.681
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (19) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   14.5650   -6.8890   17.8740 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.6650   -7.4800   18.3870 C   0  0  0  0  0  0  0  0  0  0  0  0
-   15.9520   -6.8790   19.5610 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.3630   -8.7700   18.6430 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  2  3  1  0
-M  END
->  <REMARK>  (20) 
- VINA RESULT:    -3.668      1.187      1.700
- INTER + INTRA:          -3.668
- INTER:                  -3.668
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (20) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   15.2330   -8.7680   18.5410 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.6270   -7.5180   18.2180 C   0  0  0  0  0  0  0  0  0  0  0  0
-   14.5740   -6.8780   17.6680 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.9530   -6.8780   19.3610 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  2  4  1  0
-  3  2  1  0
-M  END
->  <REMARK>  (21) 
- VINA RESULT:    -3.624      1.163      2.022
- INTER + INTRA:          -3.624
- INTER:                  -3.624
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (21) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   17.6670   -8.4070   16.7740 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.6260   -7.6900   17.2500 C   0  0  0  0  0  0  0  0  0  0  0  0
-   17.0810   -6.9110   18.2530 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.1910   -6.8820   16.2600 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (22) 
- VINA RESULT:    -3.139      1.774      2.391
- INTER + INTRA:          -3.139
- INTER:                  -3.139
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (22) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   14.1170   -9.1320   16.1820 F   0  0  0  0  0  0  0  0  0  0  0  0
-   14.8300   -8.1120   16.7050 C   0  0  0  0  0  0  0  0  0  0  0  0
-   13.9680   -7.2680   17.3090 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.6480   -8.6190   17.6500 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  2  4  1  0
-M  END
->  <REMARK>  (23) 
- VINA RESULT:    -3.099      1.982      2.645
- INTER + INTRA:          -3.099
- INTER:                  -3.099
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (23) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.3720   -9.2430   16.9510 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.2070   -9.0470   17.6050 C   0  0  0  0  0  0  0  0  0  0  0  0
-   15.4600   -8.2810   18.6860 F   0  0  0  0  0  0  0  0  0  0  0  0
-   14.3840   -8.3550   16.7880 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (24) 
- VINA RESULT:    -3.024      1.942      2.608
- INTER + INTRA:          -3.024
- INTER:                  -3.024
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (24) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   14.5660   -9.4900   18.4530 F   0  0  0  0  0  0  0  0  0  0  0  0
-   14.9460   -8.7730   17.3740 C   0  0  0  0  0  0  0  0  0  0  0  0
-   16.2830   -8.9010   17.2390 F   0  0  0  0  0  0  0  0  0  0  0  0
-   14.3640   -9.3190   16.2860 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (25) 
- VINA RESULT:    -3.013      1.627      2.011
- INTER + INTRA:          -3.013
- INTER:                  -3.013
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (25) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   14.5270   -7.3710   16.3220 F   0  0  0  0  0  0  0  0  0  0  0  0
-   14.9170   -8.6610   16.3980 C   0  0  0  0  0  0  0  0  0  0  0  0
-   13.9180   -9.4290   15.9160 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.9890   -8.8190   15.5940 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (26) 
- VINA RESULT:    -2.992      2.485      2.988
- INTER + INTRA:          -2.992
- INTER:                  -2.992
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (26) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.4250   -8.0190   17.8660 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.1150   -7.9930   16.7060 C   0  0  0  0  0  0  0  0  0  0  0  0
-   18.2580   -7.3070   16.9160 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.4440   -9.2630   16.3900 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  3  1  0
-  2  1  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (27) 
- VINA RESULT:    -2.863      1.848      2.287
- INTER + INTRA:          -2.863
- INTER:                  -2.863
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (27) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.1740  -10.4820   17.3030 F   0  0  0  0  0  0  0  0  0  0  0  0
-   14.8590  -10.1750   17.2940 C   0  0  0  0  0  0  0  0  0  0  0  0
-   14.1690  -11.3040   17.0310 F   0  0  0  0  0  0  0  0  0  0  0  0
-   14.5220   -9.7610   18.5340 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  2  4  1  0
-  3  2  1  0
-M  END
->  <ODEL 1>  (28) 
-0
-
->  <REMARK>  (28) 
- VINA RESULT:    -2.839      2.583      3.244
- INTER + INTRA:          -2.839
- INTER:                  -2.839
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (28) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.6520   -7.0150   15.5450 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.7840   -7.7560   16.6660 C   0  0  0  0  0  0  0  0  0  0  0  0
-   15.7400   -8.6080   16.7280 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.9120   -8.4870   16.5490 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <ODEL 1>  (29) 
-1
-
->  <REMARK>  (29) 
- VINA RESULT:    -2.790      2.146      2.731
- INTER + INTRA:          -2.790
- INTER:                  -2.790
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (29) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   17.1230   -8.7700   16.9540 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.8130   -9.0920   17.0210 C   0  0  0  0  0  0  0  0  0  0  0  0
-   15.3140   -9.0710   15.7680 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.7210  -10.3560   17.4850 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  3  2  1  0
-M  END
->  <ODEL 1>  (30) 
-2
-
->  <REMARK>  (30) 
- VINA RESULT:    -2.573      1.925      2.334
- INTER + INTRA:          -2.573
- INTER:                  -2.573
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (30) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.7000   -8.3230   17.4650 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.8450   -9.1060   16.3750 C   0  0  0  0  0  0  0  0  0  0  0  0
-   17.5020  -10.2240   16.7490 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.6140   -9.4670   15.9550 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  3  1  0
-  2  1  1  0
-  4  2  1  0
-M  END
->  <ODEL 1>  (31) 
-3
-
->  <REMARK>  (31) 
- VINA RESULT:    -2.438      2.615      2.912
- INTER + INTRA:          -2.438
- INTER:                  -2.438
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (31) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   15.7260  -10.8010   15.8090 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.6640   -9.9320   16.2430 C   0  0  0  0  0  0  0  0  0  0  0  0
-   17.6550  -10.6430   16.8200 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.1770   -9.3020   15.1650 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <ODEL 1>  (32) 
-4
-
->  <REMARK>  (32) 
- VINA RESULT:    -2.197      3.236      3.715
- INTER + INTRA:          -2.197
- INTER:                  -2.197
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (32) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   15.7730  -12.4590   16.2390 F   0  0  0  0  0  0  0  0  0  0  0  0
-   14.4910  -12.0970   16.4550 C   0  0  0  0  0  0  0  0  0  0  0  0
-   14.3160  -11.9590   17.7850 F   0  0  0  0  0  0  0  0  0  0  0  0
-   14.2970  -10.8910   15.8820 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <ODEL 1>  (33) 
-5
-
->  <REMARK>  (33) 
- VINA RESULT:    -2.164      4.757      5.358
- INTER + INTRA:          -2.164
- INTER:                  -2.164
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (33) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   15.3070  -13.1630   15.5430 F   0  0  0  0  0  0  0  0  0  0  0  0
-   14.2400  -12.6170   16.1650 C   0  0  0  0  0  0  0  0  0  0  0  0
-   13.1550  -12.8230   15.3900 F   0  0  0  0  0  0  0  0  0  0  0  0
-   14.0530  -13.2770   17.3270 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  3  2  1  0
-M  END
->  <ODEL 1>  (34) 
-6
-
->  <REMARK>  (34) 
- VINA RESULT:    -2.119      5.344      5.848
- INTER + INTRA:          -2.119
- INTER:                  -2.119
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (34) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   15.2270  -12.9900   17.9470 F   0  0  0  0  0  0  0  0  0  0  0  0
-   14.6770  -12.3130   16.9170 C   0  0  0  0  0  0  0  0  0  0  0  0
-   14.1690  -11.1600   17.3990 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.6640  -12.0030   16.0500 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  3  1  0
-  2  1  1  0
-  4  2  1  0
-M  END
->  <ODEL 1>  (35) 
-7
-
->  <REMARK>  (35) 
- VINA RESULT:    -1.968      4.603      5.306
- INTER + INTRA:          -1.968
- INTER:                  -1.968
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (35) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   15.0180   -1.3680    9.7520 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.9030   -2.3340    9.4260 C   0  0  0  0  0  0  0  0  0  0  0  0
-   15.9690   -2.4010    8.0800 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.1150   -1.9570    9.8840 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  2  4  1  0
-  3  2  1  0
-M  END
->  <MODEL>  (36) 
-1
-
->  <REMARK>  (36) 
- VINA RESULT:    -4.073      0.000      0.000
- INTER + INTRA:          -4.073
- INTER:                  -4.073
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (36) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   17.1640   -1.8490    9.8670 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.9600   -2.2690    9.4230 C   0  0  0  0  0  0  0  0  0  0  0  0
-   15.0430   -1.3400    9.7630 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.0130   -2.3280    8.0750 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  3  1  0
-  2  1  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (37) 
- VINA RESULT:    -4.066      0.096      1.692
- INTER + INTRA:          -4.066
- INTER:                  -4.066
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (37) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.0220   -2.4420    8.1000 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.9690   -2.3340    9.4450 C   0  0  0  0  0  0  0  0  0  0  0  0
-   17.1710   -1.8980    9.8750 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.0510   -1.3920    9.7490 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  2  3  1  0
-M  END
->  <REMARK>  (38) 
- VINA RESULT:    -4.057      0.086      1.699
- INTER + INTRA:          -4.057
- INTER:                  -4.057
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (38) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   15.2420   -1.4980    9.7690 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.8580   -2.6130    9.3210 C   0  0  0  0  0  0  0  0  0  0  0  0
-   15.0490   -3.6630    9.5690 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.9980   -2.5010    7.9840 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  3  1  0
-  2  1  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (39) 
- VINA RESULT:    -3.876      1.186      1.650
- INTER + INTRA:          -3.876
- INTER:                  -3.876
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (39) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.6100   -6.6040   11.2120 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.9370   -5.6910   11.9440 C   0  0  0  0  0  0  0  0  0  0  0  0
-   15.9270   -6.1080   13.2260 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.6220   -4.5290   11.8890 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (40) 
- VINA RESULT:    -3.780      3.968      4.630
- INTER + INTRA:          -3.780
- INTER:                  -3.780
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (40) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   15.1090   -5.9260   12.7730 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.1200   -5.5180   11.4860 C   0  0  0  0  0  0  0  0  0  0  0  0
-   15.1320   -6.6160   10.7010 F   0  0  0  0  0  0  0  0  0  0  0  0
-   13.9690   -4.8530   11.2520 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (41) 
- VINA RESULT:    -3.608      3.944      4.324
- INTER + INTRA:          -3.608
- INTER:                  -3.608
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (41) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   17.1180   -3.8660   11.3650 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.5650   -3.1500   10.3120 C   0  0  0  0  0  0  0  0  0  0  0  0
-   18.3070   -2.1280   10.7870 F   0  0  0  0  0  0  0  0  0  0  0  0
-   18.3730   -3.9470    9.5810 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  3  1  0
-  2  1  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (42) 
- VINA RESULT:    -3.591      2.353      2.762
- INTER + INTRA:          -3.591
- INTER:                  -3.591
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (42) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   18.6040   -4.0000    9.5720 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.8610   -3.2400   10.4050 C   0  0  0  0  0  0  0  0  0  0  0  0
-   17.5010   -4.0040   11.4570 F   0  0  0  0  0  0  0  0  0  0  0  0
-   18.6430   -2.2400   10.8630 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  2  3  1  0
-M  END
->  <REMARK>  (43) 
- VINA RESULT:    -3.590      2.583      3.082
- INTER + INTRA:          -3.590
- INTER:                  -3.590
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (43) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.2300   -6.5850   11.0040 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.8680   -5.8620   12.0860 C   0  0  0  0  0  0  0  0  0  0  0  0
-   16.4780   -4.6620   12.0080 F   0  0  0  0  0  0  0  0  0  0  0  0
-   14.5360   -5.6570   12.0220 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (44) 
- VINA RESULT:    -3.588      4.220      4.812
- INTER + INTRA:          -3.588
- INTER:                  -3.588
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (44) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.5550   -4.6580   11.9420 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.8540   -5.8100   12.0110 C   0  0  0  0  0  0  0  0  0  0  0  0
-   14.5450   -5.5090   11.8910 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.2050   -6.5730   10.9540 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <ODEL 1>  (45) 
-0
-
->  <REMARK>  (45) 
- VINA RESULT:    -3.583      4.130      4.598
- INTER + INTRA:          -3.583
- INTER:                  -3.583
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (45) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   14.5470   -5.7500   11.9090 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.8850   -5.8810   12.0380 C   0  0  0  0  0  0  0  0  0  0  0  0
-   16.3350   -6.6050   10.9930 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.4320   -4.6500   11.9600 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <ODEL 1>  (46) 
-1
-
->  <REMARK>  (46) 
- VINA RESULT:    -3.581      4.212      4.512
- INTER + INTRA:          -3.581
- INTER:                  -3.581
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (46) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   17.7960   -5.0630   10.1090 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.2280   -4.5970   11.2420 C   0  0  0  0  0  0  0  0  0  0  0  0
-   18.2070   -4.0940   12.0220 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.4030   -3.5830   10.9060 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <ODEL 1>  (47) 
-2
-
->  <REMARK>  (47) 
- VINA RESULT:    -3.246      2.791      3.692
- INTER + INTRA:          -3.246
- INTER:                  -3.246
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (47) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   17.5200   -5.5640   10.4470 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.4050   -4.4380   11.1820 C   0  0  0  0  0  0  0  0  0  0  0  0
-   16.1110   -4.3040   11.5410 F   0  0  0  0  0  0  0  0  0  0  0  0
-   18.1340   -4.6000   12.3070 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  2  4  1  0
-M  END
->  <ODEL 1>  (48) 
-3
-
->  <REMARK>  (48) 
- VINA RESULT:    -3.217      3.137      3.732
- INTER + INTRA:          -3.217
- INTER:                  -3.217
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (48) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   14.9680   -5.9010   18.8370 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.8140   -6.2490   17.8440 C   0  0  0  0  0  0  0  0  0  0  0  0
-   16.3730   -5.1220   17.3580 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.7960   -7.0020   18.3820 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  4  1  0
-  2  1  1  0
-  3  2  1  0
-M  END
->  <MODEL>  (49) 
-1
-
->  <REMARK>  (49) 
- VINA RESULT:    -3.393      0.000      0.000
- INTER + INTRA:          -3.393
- INTER:                  -3.393
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (49) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.2050   -5.1160   17.3310 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.6860   -6.2530   17.8420 C   0  0  0  0  0  0  0  0  0  0  0  0
-   16.7050   -7.0020   18.3100 F   0  0  0  0  0  0  0  0  0  0  0  0
-   14.9010   -5.9180   18.8870 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  2  4  1  0
-M  END
->  <REMARK>  (50) 
- VINA RESULT:    -3.392      0.144      1.676
- INTER + INTRA:          -3.392
- INTER:                  -3.392
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (50) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.7680   -7.0010   18.4980 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.8710   -6.2370   17.8390 C   0  0  0  0  0  0  0  0  0  0  0  0
-   14.9330   -5.8390   18.7240 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.5120   -5.1380   17.3890 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (51) 
- VINA RESULT:    -3.354      0.130      1.649
- INTER + INTRA:          -3.354
- INTER:                  -3.354
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (51) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   14.8430   -5.9400   19.1410 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.3720   -6.2420   17.9360 C   0  0  0  0  0  0  0  0  0  0  0  0
-   14.4660   -6.9730   17.2550 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.5640   -5.0870   17.2650 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (52) 
- VINA RESULT:    -3.275      1.307      1.901
- INTER + INTRA:          -3.275
- INTER:                  -3.275
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (52) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.6500   -5.1780   17.2250 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.5910   -6.5260   17.2680 C   0  0  0  0  0  0  0  0  0  0  0  0
-   15.8460   -6.9440   16.2250 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.8430   -7.0020   17.1030 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (53) 
- VINA RESULT:    -3.264      1.583      1.934
- INTER + INTRA:          -3.264
- INTER:                  -3.264
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (53) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.1180   -6.7020   16.2320 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.4020   -6.4470   17.3480 C   0  0  0  0  0  0  0  0  0  0  0  0
-   15.2440   -5.1100   17.4450 F   0  0  0  0  0  0  0  0  0  0  0  0
-   14.1810   -7.0000   17.1920 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (54) 
- VINA RESULT:    -3.207      1.500      2.145
- INTER + INTRA:          -3.207
- INTER:                  -3.207
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (54) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   16.7700   -6.5910   18.7120 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.6460   -6.4150   17.3790 C   0  0  0  0  0  0  0  0  0  0  0  0
-   16.7070   -5.0910   17.1260 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.7040   -7.0020   16.7820 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (55) 
- VINA RESULT:    -3.155      1.020      1.289
- INTER + INTRA:          -3.155
- INTER:                  -3.155
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (55) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   14.4290   -6.5600   18.3980 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.5200   -6.2360   17.6700 C   0  0  0  0  0  0  0  0  0  0  0  0
-   15.5560   -4.8920   17.5500 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.6110   -6.6210   18.3650 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  4  1  0
-  2  1  1  0
-  3  2  1  0
-M  END
->  <REMARK>  (56) 
- VINA RESULT:    -2.717      0.682      0.682
- INTER + INTRA:          -2.717
- INTER:                  -2.717
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (56) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   17.8420   -6.1090   15.4080 F   0  0  0  0  0  0  0  0  0  0  0  0
-   17.0320   -6.2890   16.4730 C   0  0  0  0  0  0  0  0  0  0  0  0
-   17.7100   -6.9990   17.3970 F   0  0  0  0  0  0  0  0  0  0  0  0
-   16.7610   -5.0750   16.9970 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  2  3  1  0
-M  END
->  <REMARK>  (57) 
- VINA RESULT:    -2.642      1.653      2.658
- INTER + INTRA:          -2.642
- INTER:                  -2.642
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (57) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   14.3340   -5.5310   16.7210 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.4440   -6.1490   17.1780 C   0  0  0  0  0  0  0  0  0  0  0  0
-   16.2470   -5.2120   17.7230 F   0  0  0  0  0  0  0  0  0  0  0  0
-   15.0720   -7.0000   18.1570 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  2  4  1  0
-M  END
->  <ODEL 1>  (58) 
-0
-
->  <REMARK>  (58) 
- VINA RESULT:    -1.872      1.325      1.442
- INTER + INTRA:          -1.872
- INTER:                  -1.872
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (58) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   23.8930   -8.0930   11.0350 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.9440   -8.2730   12.3720 C   0  0  0  0  0  0  0  0  0  0  0  0
-   23.4460   -9.4960   12.6470 F   0  0  0  0  0  0  0  0  0  0  0  0
-   25.2410   -8.2580   12.7440 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  2  4  1  0
-M  END
->  <MODEL>  (59) 
-1
-
->  <REMARK>  (59) 
- VINA RESULT:    -2.689      0.000      0.000
- INTER + INTRA:          -2.689
- INTER:                  -2.689
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (59) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   23.4850   -9.5280   12.6630 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.8910   -8.2770   12.3600 C   0  0  0  0  0  0  0  0  0  0  0  0
-   25.1930   -8.1680   12.6940 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.7900   -8.1200   11.0230 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (60) 
- VINA RESULT:    -2.685      0.094      1.720
- INTER + INTRA:          -2.685
- INTER:                  -2.685
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (60) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   25.2660   -8.3150   12.6800 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.9580   -8.3110   12.3440 C   0  0  0  0  0  0  0  0  0  0  0  0
-   23.8720   -8.1560   11.0060 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.4470   -9.5210   12.6560 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  4  1  0
-  2  1  1  0
-  3  2  1  0
-M  END
->  <REMARK>  (61) 
- VINA RESULT:    -2.685      0.064      1.682
- INTER + INTRA:          -2.685
- INTER:                  -2.685
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (61) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   23.7970   -7.6280   11.2020 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.9400   -8.3470   12.3360 C   0  0  0  0  0  0  0  0  0  0  0  0
-   24.9330   -7.7900   13.0590 F   0  0  0  0  0  0  0  0  0  0  0  0
-   22.7960   -8.2360   13.0440 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  2  3  1  0
-M  END
->  <REMARK>  (62) 
- VINA RESULT:    -2.532      1.034      2.030
- INTER + INTRA:          -2.532
- INTER:                  -2.532
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (62) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   23.6210   -8.5230   12.8170 F   0  0  0  0  0  0  0  0  0  0  0  0
-   24.3540   -9.3530   12.0440 C   0  0  0  0  0  0  0  0  0  0  0  0
-   25.6370   -9.2770   12.4530 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.9210  -10.6130   12.2620 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  4  1  0
-  2  3  1  0
-  2  1  1  0
-M  END
->  <REMARK>  (63) 
- VINA RESULT:    -2.337      1.691      2.359
- INTER + INTRA:          -2.337
- INTER:                  -2.337
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (63) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   24.0890   -9.7410   10.5580 F   0  0  0  0  0  0  0  0  0  0  0  0
-   24.2560  -10.0530   11.8610 C   0  0  0  0  0  0  0  0  0  0  0  0
-   25.5690   -9.9510   12.1500 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.5950   -9.1340   12.5960 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  2  4  1  0
-M  END
->  <REMARK>  (64) 
- VINA RESULT:    -2.055      2.041      2.614
- INTER + INTRA:          -2.055
- INTER:                  -2.055
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (64) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   23.8310   -9.1690   10.1900 F   0  0  0  0  0  0  0  0  0  0  0  0
-   24.4860   -8.3720   11.0600 C   0  0  0  0  0  0  0  0  0  0  0  0
-   25.7610   -8.8040   11.1430 F   0  0  0  0  0  0  0  0  0  0  0  0
-   24.5020   -7.1230   10.5480 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (65) 
- VINA RESULT:    -1.935      1.631      2.047
- INTER + INTRA:          -1.935
- INTER:                  -1.935
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (65) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   25.1730   -8.7870   12.1130 F   0  0  0  0  0  0  0  0  0  0  0  0
-   24.4740   -8.0050   11.2630 C   0  0  0  0  0  0  0  0  0  0  0  0
-   23.7950   -8.8090   10.4190 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.5740   -7.3070   11.9870 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  4  1  0
-  2  1  1  0
-  3  2  1  0
-M  END
->  <REMARK>  (66) 
- VINA RESULT:    -1.797      1.589      2.293
- INTER + INTRA:          -1.797
- INTER:                  -1.797
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (66) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   23.5110  -10.6990   12.4480 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.7270  -11.9570   12.0100 C   0  0  0  0  0  0  0  0  0  0  0  0
-   23.5560  -12.7960   13.0530 F   0  0  0  0  0  0  0  0  0  0  0  0
-   22.7860  -12.2430   11.0870 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (67) 
- VINA RESULT:    -1.708      3.386      4.216
- INTER + INTRA:          -1.708
- INTER:                  -1.708
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (67) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   24.5460  -10.2200   11.2280 F   0  0  0  0  0  0  0  0  0  0  0  0
-   24.4390   -9.3180   10.2300 C   0  0  0  0  0  0  0  0  0  0  0  0
-   23.6100   -9.8270    9.2960 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.8650   -8.2060   10.7350 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  4  1  0
-  2  1  1  0
-  3  2  1  0
-M  END
->  <ODEL 1>  (68) 
-0
-
->  <REMARK>  (68) 
- VINA RESULT:    -1.691      2.449      3.170
- INTER + INTRA:          -1.691
- INTER:                  -1.691
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (68) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   22.6270  -10.4940    8.2110 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.7380  -10.6230    8.9670 C   0  0  0  0  0  0  0  0  0  0  0  0
-   24.7970  -10.7210    8.1380 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.8790   -9.4940    9.6920 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  3  2  1  0
-M  END
->  <ODEL 1>  (69) 
-1
-
->  <REMARK>  (69) 
- VINA RESULT:    -1.524      3.783      4.493
- INTER + INTRA:          -1.524
- INTER:                  -1.524
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (69) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   25.3830   -9.9390    9.1410 F   0  0  0  0  0  0  0  0  0  0  0  0
-   24.3600  -10.0510   10.0140 C   0  0  0  0  0  0  0  0  0  0  0  0
-   23.9290   -8.8080   10.3130 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.3530  -10.7020    9.3930 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <ODEL 1>  (70) 
-2
-
->  <REMARK>  (70) 
- VINA RESULT:    -1.518      2.906      3.574
- INTER + INTRA:          -1.518
- INTER:                  -1.518
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (70) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   21.8950  -12.6070    9.5050 F   0  0  0  0  0  0  0  0  0  0  0  0
-   21.4130  -12.2280    8.3020 C   0  0  0  0  0  0  0  0  0  0  0  0
-   21.5090  -13.2800    7.4640 F   0  0  0  0  0  0  0  0  0  0  0  0
-   20.1040  -11.9340    8.4540 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  4  1  0
-  2  1  1  0
-  3  2  1  0
-M  END
->  <ODEL 1>  (71) 
-3
-
->  <REMARK>  (71) 
- VINA RESULT:    -1.492      5.869      6.521
- INTER + INTRA:          -1.492
- INTER:                  -1.492
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (71) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   24.3150  -11.4880    7.7650 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.2550  -11.2020    8.5510 C   0  0  0  0  0  0  0  0  0  0  0  0
-   23.1740  -12.1530    9.5040 F   0  0  0  0  0  0  0  0  0  0  0  0
-   23.4960  -10.0210    9.1590 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  2  3  1  0
-M  END
->  <ODEL 1>  (72) 
-4
-
->  <REMARK>  (72) 
- VINA RESULT:    -1.430      4.560      5.051
- INTER + INTRA:          -1.430
- INTER:                  -1.430
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (72) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   25.4950  -10.4750    8.3030 F   0  0  0  0  0  0  0  0  0  0  0  0
-   24.5090  -10.5240    9.2230 C   0  0  0  0  0  0  0  0  0  0  0  0
-   23.3380  -10.6770    8.5720 F   0  0  0  0  0  0  0  0  0  0  0  0
-   24.7070  -11.6200    9.9850 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  3  2  1  0
-M  END
->  <ODEL 1>  (73) 
-5
-
->  <REMARK>  (73) 
- VINA RESULT:    -1.396      3.669      4.085
- INTER + INTRA:          -1.396
- INTER:                  -1.396
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (73) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   24.2280  -11.5040   10.2980 F   0  0  0  0  0  0  0  0  0  0  0  0
-   24.4240  -10.6370    9.2820 C   0  0  0  0  0  0  0  0  0  0  0  0
-   23.5170   -9.6450    9.4000 F   0  0  0  0  0  0  0  0  0  0  0  0
-   25.6520  -10.0970    9.4280 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  3  1  0
-  2  4  1  0
-  2  1  1  0
-M  END
->  <ODEL 1>  (74) 
-6
-
->  <REMARK>  (74) 
- VINA RESULT:    -1.264      3.826      4.415
- INTER + INTRA:          -1.264
- INTER:                  -1.264
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (74) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   22.3590  -14.0020    8.9210 F   0  0  0  0  0  0  0  0  0  0  0  0
-   21.8480  -12.8160    9.3130 C   0  0  0  0  0  0  0  0  0  0  0  0
-   21.2150  -13.0030   10.4900 F   0  0  0  0  0  0  0  0  0  0  0  0
-   22.8790  -11.9710    9.5260 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  2  3  1  0
-M  END
->  <ODEL 1>  (75) 
-7
-
->  <REMARK>  (75) 
- VINA RESULT:    -1.087      5.474      6.029
- INTER + INTRA:          -1.087
- INTER:                  -1.087
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (75) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   20.8410  -13.2160   15.8320 F   0  0  0  0  0  0  0  0  0  0  0  0
-   19.4970  -13.2760   15.7140 C   0  0  0  0  0  0  0  0  0  0  0  0
-   19.0100  -13.9000   16.8070 F   0  0  0  0  0  0  0  0  0  0  0  0
-   19.0240  -12.0120   15.7110 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <MODEL>  (76) 
-1
-
->  <REMARK>  (76) 
- VINA RESULT:    -0.015      0.000      0.000
- INTER + INTRA:          -0.015
- INTER:                  -0.015
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (76) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   19.9170  -12.0400   20.0260 F   0  0  0  0  0  0  0  0  0  0  0  0
-   19.6530  -13.3580   20.1470 C   0  0  0  0  0  0  0  0  0  0  0  0
-   20.8250  -14.0020   20.3260 F   0  0  0  0  0  0  0  0  0  0  0  0
-   18.9080  -13.5330   21.2590 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  2  4  1  0
-M  END
->  <REMARK>  (77) 
- VINA RESULT:     2.429      4.122      4.655
- INTER + INTRA:           2.429
- INTER:                   2.429
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (77) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   18.9120  -11.5910   17.1980 F   0  0  0  0  0  0  0  0  0  0  0  0
-   19.3660  -12.8290   16.9060 C   0  0  0  0  0  0  0  0  0  0  0  0
-   18.9100  -13.1620   15.6810 F   0  0  0  0  0  0  0  0  0  0  0  0
-   20.7140  -12.7730   16.8480 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (78) 
- VINA RESULT:     2.646      1.642      2.391
- INTER + INTRA:           2.646
- INTER:                   2.646
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (78) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   21.0740  -13.9790   20.6330 F   0  0  0  0  0  0  0  0  0  0  0  0
-   19.8480  -13.4550   20.4250 C   0  0  0  0  0  0  0  0  0  0  0  0
-   19.0520  -13.8380   21.4440 F   0  0  0  0  0  0  0  0  0  0  0  0
-   19.9590  -12.1110   20.4660 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  4  1  0
-  2  1  1  0
-  2  3  1  0
-M  END
->  <REMARK>  (79) 
- VINA RESULT:     2.857      4.427      4.747
- INTER + INTRA:           2.857
- INTER:                   2.857
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (79) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   24.7590   -4.9820   13.2580 F   0  0  0  0  0  0  0  0  0  0  0  0
-   24.8790   -6.2550   12.8240 C   0  0  0  0  0  0  0  0  0  0  0  0
-   25.2600   -6.2210   11.5310 F   0  0  0  0  0  0  0  0  0  0  0  0
-   25.8660   -6.8430   13.5330 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  2  4  1  0
-  3  2  1  0
-M  END
->  <MODEL>  (80) 
-1
-
->  <REMARK>  (80) 
- VINA RESULT:    -2.323      0.000      0.000
- INTER + INTRA:          -2.323
- INTER:                  -2.323
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (80) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   25.8920   -6.1740   11.8530 F   0  0  0  0  0  0  0  0  0  0  0  0
-   25.1660   -5.9600   12.9710 C   0  0  0  0  0  0  0  0  0  0  0  0
-   25.9530   -6.2200   14.0360 F   0  0  0  0  0  0  0  0  0  0  0  0
-   24.8350   -4.6520   13.0070 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  2  3  1  0
-M  END
->  <REMARK>  (81) 
- VINA RESULT:    -2.313      0.579      1.893
- INTER + INTRA:          -2.313
- INTER:                  -2.313
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (81) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   24.1560    0.0910    9.7140 F   0  0  0  0  0  0  0  0  0  0  0  0
-   25.2760   -0.6130    9.4400 C   0  0  0  0  0  0  0  0  0  0  0  0
-   24.9120   -1.7400    8.7960 F   0  0  0  0  0  0  0  0  0  0  0  0
-   26.0320    0.1220    8.5990 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (82) 
- VINA RESULT:    -1.529      6.218      6.793
- INTER + INTRA:          -1.529
- INTER:                  -1.529
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (82) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   25.1440   -1.8950    9.3250 F   0  0  0  0  0  0  0  0  0  0  0  0
-   25.3200   -0.5580    9.3940 C   0  0  0  0  0  0  0  0  0  0  0  0
-   26.0250   -0.1730    8.3100 F   0  0  0  0  0  0  0  0  0  0  0  0
-   24.1040    0.0240    9.3280 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (83) 
- VINA RESULT:    -1.427      6.315      6.972
- INTER + INTRA:          -1.427
- INTER:                  -1.427
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (83) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   24.8560   -1.9040    9.3110 F   0  0  0  0  0  0  0  0  0  0  0  0
-   25.1970   -0.6180    9.5430 C   0  0  0  0  0  0  0  0  0  0  0  0
-   24.0610    0.0940    9.6900 F   0  0  0  0  0  0  0  0  0  0  0  0
-   25.8720   -0.5710   10.7110 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  2  4  1  0
-M  END
->  <REMARK>  (84) 
- VINA RESULT:    -1.414      6.189      6.850
- INTER + INTRA:          -1.414
- INTER:                  -1.414
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (84) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   25.8240   -2.7940    9.4770 F   0  0  0  0  0  0  0  0  0  0  0  0
-   25.4410   -2.9570    8.1930 C   0  0  0  0  0  0  0  0  0  0  0  0
-   24.1070   -2.7710    8.1290 F   0  0  0  0  0  0  0  0  0  0  0  0
-   26.0320   -1.9920    7.4580 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (85) 
- VINA RESULT:    -1.407      5.302      5.973
- INTER + INTRA:          -1.407
- INTER:                  -1.407
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (85) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   24.1260   -2.8410    8.1200 F   0  0  0  0  0  0  0  0  0  0  0  0
-   25.2890   -2.3360    8.5850 C   0  0  0  0  0  0  0  0  0  0  0  0
-   25.0050   -1.5270    9.6260 F   0  0  0  0  0  0  0  0  0  0  0  0
-   26.0320   -3.3630    9.0460 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  4  1  0
-  2  3  1  0
-M  END
->  <REMARK>  (86) 
- VINA RESULT:    -1.289      5.466      6.135
- INTER + INTRA:          -1.289
- INTER:                  -1.289
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (86) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   25.6220   -3.9780    9.3590 F   0  0  0  0  0  0  0  0  0  0  0  0
-   25.4400   -3.9080    8.0230 C   0  0  0  0  0  0  0  0  0  0  0  0
-   26.0220   -4.9900    7.4660 F   0  0  0  0  0  0  0  0  0  0  0  0
-   24.1150   -3.9760    7.7800 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (87) 
- VINA RESULT:    -1.038      4.917      5.733
- INTER + INTRA:          -1.038
- INTER:                  -1.038
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (87) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   24.1760   -2.8270    7.9410 F   0  0  0  0  0  0  0  0  0  0  0  0
-   25.0890   -3.7030    8.4110 C   0  0  0  0  0  0  0  0  0  0  0  0
-   24.4720   -4.8880    8.5980 F   0  0  0  0  0  0  0  0  0  0  0  0
-   26.0320   -3.8700    7.4600 F   0  0  0  0  0  0  0  0  0  0  0  0
-  1  2  1  0
-  2  3  1  0
-  4  2  1  0
-M  END
->  <REMARK>  (88) 
- VINA RESULT:    -0.113      4.742      5.399
- INTER + INTRA:          -0.113
- INTER:                  -0.113
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (88) 
-F 0
-
-$$$$
-=
-     RDKit          3D
-
-  4  3  0  0  0  0  0  0  0  0999 V2000
-   20.0270   -6.7220   16.4440 F   0  0  0  0  0  0  0  0  0  0  0  0
-   20.0310   -6.4390   15.1240 C   0  0  0  0  0  0  0  0  0  0  0  0
-   18.9110   -6.9600   14.5830 F   0  0  0  0  0  0  0  0  0  0  0  0
-   19.9750   -5.0970   14.9880 F   0  0  0  0  0  0  0  0  0  0  0  0
-  2  1  1  0
-  3  2  1  0
-  4  2  1  0
-M  END
->  <MODEL>  (89) 
-1
-
->  <REMARK>  (89) 
- VINA RESULT:     6.600      0.000      0.000
- INTER + INTRA:           6.600
- INTER:                   6.600
- INTRA:                   0.000
- UNBOUND:                 0.000
-  Name = 
-  1 active torsions:
-  status: ('A' for Active; 'I' for Inactive)
-    1  A    between atoms: C_4  and  C_5
-                            x       y       z     vdW  Elec       q    Type
-                         _______ _______ _______ _____ _____    ______ ____
-
->  <TORSDO>  (89) 
-F 0
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   17.1580   -2.0700    9.8860 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9230   -2.3850    9.4420 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4570   -3.6900   10.0290 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0890   -1.3800    9.7790 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9700   -2.4530    8.0950 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  4  1  0  0  0  0
+  2  1  1  0  0  0  0
+  2  3  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-4.06667471
+
+>  <CNNscore>
+0.814329028
+
+>  <CNNaffinity>
+3.5560925
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.0170   -1.3600    9.7730 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9030   -2.3260    9.4460 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4890   -3.6520   10.0240 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9750   -2.3870    8.1000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.1140   -1.9530    9.9110 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-4.07066679
+
+>  <CNNscore>
+0.809024632
+
+>  <CNNaffinity>
+3.55164027
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   17.4550   -2.0750   10.1660 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.7760   -3.3490   10.4750 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5390   -4.1700   10.7220 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.4960   -3.8580    9.4530 F   0  0  0  0  0  0  0  0  0  0  0  0
+   18.5660   -3.3250   11.5690 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  5  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.51078916
+
+>  <CNNscore>
+0.808919787
+
+>  <CNNaffinity>
+3.64396691
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.9740   -2.4300    8.0940 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9030   -2.3720    9.4410 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4490   -3.6880   10.0120 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.1240   -2.0380    9.9090 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0460   -1.3820    9.7690 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2  3  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-4.06466389
+
+>  <CNNscore>
+0.808533311
+
+>  <CNNaffinity>
+3.55241275
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   18.7080   -2.6870   11.2500 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.8350   -3.3680   10.4770 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.1800   -4.4770   11.2560 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.9160   -2.4950   10.0160 F   0  0  0  0  0  0  0  0  0  0  0  0
+   18.5130   -3.8580    9.4180 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.51427531
+
+>  <CNNscore>
+0.797659457
+
+>  <CNNaffinity>
+3.7424562
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   18.5070   -3.8580    9.4120 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.8400   -3.3660   10.4770 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.1950   -4.4740   11.2650 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.7180   -2.6800   11.2380 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.9150   -2.4950   10.0220 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2  3  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.50901031
+
+>  <CNNscore>
+0.797459781
+
+>  <CNNaffinity>
+3.74589038
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   18.5210   -3.9000    9.4870 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.7860   -3.1410   10.3280 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5750   -2.5830    9.6300 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.4280   -3.9090   11.3770 F   0  0  0  0  0  0  0  0  0  0  0  0
+   18.5770   -2.1480   10.7890 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  4  1  0  0  0  0
+  3  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.62088013
+
+>  <CNNscore>
+0.738591731
+
+>  <CNNaffinity>
+3.43541622
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   18.5800   -2.2070   10.8570 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.7730   -3.1620   10.3490 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5890   -2.5500    9.6500 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.5010   -3.9140    9.4970 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.3760   -3.9540   11.3670 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.60156703
+
+>  <CNNscore>
+0.73232168
+
+>  <CNNaffinity>
+3.43212581
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.2050   -1.4900    9.7720 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8320   -2.5990    9.3250 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.1840   -2.7490    9.9700 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0460   -3.6610    9.6000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9450   -2.5010    7.9840 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  4  1  0  0  0  0
+  2  1  1  0  0  0  0
+  2  3  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.88653374
+
+>  <CNNscore>
+0.730344951
+
+>  <CNNaffinity>
+3.3492291
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   17.3020   -3.8730   11.3700 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.7050   -3.1300   10.3170 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5240   -2.5640    9.5750 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.5010   -2.1450   10.7820 F   0  0  0  0  0  0  0  0  0  0  0  0
+   18.4470   -3.9200    9.5120 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  4  1  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.61667728
+
+>  <CNNscore>
+0.726984859
+
+>  <CNNaffinity>
+3.40725994
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.0400   -3.6440    9.7720 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8140   -2.6070    9.3860 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.1950   -2.7200    9.9720 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8600   -2.6020    8.0370 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.2120   -1.4680    9.7860 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.87077212
+
+>  <CNNscore>
+0.719871581
+
+>  <CNNaffinity>
+3.34077191
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.8070   -2.6250    8.0400 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7870   -2.6130    9.3900 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.1800   -2.7230    9.9490 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1960   -1.4680    9.7890 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0190   -3.6440    9.8030 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  3  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.87365794
+
+>  <CNNscore>
+0.709877789
+
+>  <CNNaffinity>
+3.33165097
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   14.9470   -1.2550    9.8480 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8280   -2.2430    9.5790 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8550   -2.5520    8.1060 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.0420   -1.8480   10.0120 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4630   -3.3290   10.2930 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.38964558
+
+>  <CNNscore>
+0.641053438
+
+>  <CNNaffinity>
+3.25163341
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.2040   -6.0270   12.8210 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1470   -5.5840   11.5470 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.2870   -4.6470   11.2520 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1810   -6.6580   10.7310 F   0  0  0  0  0  0  0  0  0  0  0  0
+   13.9590   -4.9680   11.3750 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.60426664
+
+>  <CNNscore>
+0.580712378
+
+>  <CNNaffinity>
+3.59936714
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.4660   -6.4750   10.6690 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1150   -5.3350   11.3010 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1140   -4.1700   10.3480 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8920   -5.5170   11.8410 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9890   -5.1330   12.3100 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.61829925
+
+>  <CNNscore>
+0.575626493
+
+>  <CNNaffinity>
+3.64585805
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.9470   -6.5300   10.8420 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.6480   -5.7890   11.9300 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.0860   -6.4850   13.1910 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.2580   -4.5930   11.8020 F   0  0  0  0  0  0  0  0  0  0  0  0
+   14.3150   -5.5790   11.9340 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.59557104
+
+>  <CNNscore>
+0.566070139
+
+>  <CNNaffinity>
+3.58858371
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.3150   -7.1980   15.5830 F   0  0  0  0  0  0  0  0  0  0  0  0
+   14.8170   -7.8910   16.6300 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9150   -8.2960   17.5770 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.9080   -7.1110   17.2510 F   0  0  0  0  0  0  0  0  0  0  0  0
+   14.1750   -8.9730   16.1440 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2  3  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.18260598
+
+>  <CNNscore>
+0.562597632
+
+>  <CNNaffinity>
+3.62418747
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   13.9000   -7.1450   17.2160 F   0  0  0  0  0  0  0  0  0  0  0  0
+   14.7610   -8.0100   16.6410 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8270   -8.4360   17.6150 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.0550   -9.0730   16.2030 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3060   -7.4010   15.5660 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.19270205
+
+>  <CNNscore>
+0.560110927
+
+>  <CNNaffinity>
+3.62223363
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   14.5160   -5.6130   11.9290 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8390   -5.8520   12.0490 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.1430   -6.5550   13.3440 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.2250   -6.5980   10.9930 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.4830   -4.6680   11.9790 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.5929637
+
+>  <CNNscore>
+0.556311369
+
+>  <CNNaffinity>
+3.58297086
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   16.3410   -4.6500   11.9240 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7230   -5.8460   12.0170 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.0820   -6.5380   13.3040 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.3930   -5.6350   11.9370 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.0910   -6.5880   10.9510 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.59340072
+
+>  <CNNscore>
+0.556186676
+
+>  <CNNaffinity>
+3.58674622
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   14.0370   -9.1250   16.1900 F   0  0  0  0  0  0  0  0  0  0  0  0
+   14.7580   -8.0660   16.6180 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7910   -8.4920   17.6260 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3400   -7.4970   15.5420 F   0  0  0  0  0  0  0  0  0  0  0  0
+   13.9030   -7.1700   17.1520 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.17485881
+
+>  <CNNscore>
+0.556143105
+
+>  <CNNaffinity>
+3.61450958
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.4970   -6.1510   13.0640 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7920   -5.6560   11.8420 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5500   -5.1680   11.1460 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.6820   -4.6550   12.0020 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.3900   -6.6350   11.1310 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  4  1  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.73393273
+
+>  <CNNscore>
+0.548252285
+
+>  <CNNaffinity>
+3.42798686
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   16.5840   -6.6060   11.1970 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9170   -5.7040   11.9480 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5020   -5.5410   11.4630 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9430   -6.1280   13.2280 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5870   -4.5340   11.8830 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  4  1  0  0  0  0
+  3  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.78475881
+
+>  <CNNscore>
+0.545724154
+
+>  <CNNaffinity>
+3.45793605
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   16.5770   -4.5320   11.8820 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9150   -5.7070   11.9440 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.4970   -5.5510   11.4620 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5850   -6.6040   11.1920 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9440   -6.1330   13.2250 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.78057551
+
+>  <CNNscore>
+0.545350909
+
+>  <CNNaffinity>
+3.45801568
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.4520   -6.8060   15.8270 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1680   -6.7590   17.1460 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.1170   -7.6240   17.9310 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.2460   -5.4720   17.5430 F   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8930   -7.1690   17.3100 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2  3  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.32830191
+
+>  <CNNscore>
+0.538697004
+
+>  <CNNaffinity>
+3.63494682
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   17.4100   -5.2950   12.8230 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.4380   -6.2300   12.7750 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3410   -5.8170   11.8310 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.9970   -7.3940   12.3860 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9600   -6.3950   14.0270 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.24676895
+
+>  <CNNscore>
+0.535595596
+
+>  <CNNaffinity>
+3.63476753
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   13.9010   -7.1540   17.3210 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1820   -6.7360   17.2390 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.0740   -7.5600   18.1280 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5680   -6.8280   15.9490 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.2180   -5.4340   17.5920 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.3385725
+
+>  <CNNscore>
+0.527683496
+
+>  <CNNaffinity>
+3.62481189
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   18.2430   -7.6260   16.4270 F   0  0  0  0  0  0  0  0  0  0  0  0
+   18.1760   -7.2050   15.1450 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.2020   -8.3720   14.1950 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.0420   -6.4900   15.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   19.2210   -6.3800   14.9240 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.81734562
+
+>  <CNNscore>
+0.526058793
+
+>  <CNNaffinity>
+3.61931491
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   14.6140   -3.7210   10.6540 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4880   -3.3490    9.6950 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.6570   -1.8540    9.6720 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.6630   -3.9640    9.9410 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0220   -3.8000    8.5110 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  4  1  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.34485245
+
+>  <CNNscore>
+0.526041865
+
+>  <CNNaffinity>
+3.08103108
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.2210   -5.4270   17.5940 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1810   -6.7280   17.2370 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.0060   -7.5680   18.1740 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8910   -7.1230   17.2430 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.6390   -6.8260   15.9710 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  4  1  0  0  0  0
+  2  1  1  0  0  0  0
+  2  3  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.3421073
+
+>  <CNNscore>
+0.52474755
+
+>  <CNNaffinity>
+3.61780548
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   19.1410   -5.4870   13.6060 F   0  0  0  0  0  0  0  0  0  0  0  0
+   19.1270   -6.7320   14.1280 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.9000   -7.4850   13.6900 C   0  0  0  0  0  0  0  0  0  0  0  0
+   20.2500   -7.3630   13.7280 F   0  0  0  0  0  0  0  0  0  0  0  0
+   19.1700   -6.6180   15.4730 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.95120931
+
+>  <CNNscore>
+0.524095953
+
+>  <CNNaffinity>
+3.77806354
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   20.7010   -6.7440   13.8530 F   0  0  0  0  0  0  0  0  0  0  0  0
+   19.3760   -6.7880   14.1100 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.6610   -5.6450   13.4410 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9050   -7.9740   13.6730 F   0  0  0  0  0  0  0  0  0  0  0  0
+   19.2110   -6.7420   15.4490 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.00429344
+
+>  <CNNscore>
+0.510650575
+
+>  <CNNaffinity>
+3.76877427
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.7500   -7.0710   16.4130 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5370   -6.6320   17.4180 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9120   -6.9220   18.7560 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.7360   -7.2380   17.3030 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.7230   -5.3050   17.2490 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.33253193
+
+>  <CNNscore>
+0.509825468
+
+>  <CNNaffinity>
+3.6800251
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   16.8380   -6.7980   16.6740 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.1380   -6.8340   17.8280 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4360   -8.1550   17.9900 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.9990   -6.6170   18.8440 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.2520   -5.8160   17.8080 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  4  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.39586163
+
+>  <CNNscore>
+0.507153571
+
+>  <CNNaffinity>
+3.62623668
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   17.0670   -7.6190   12.7260 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.6180   -6.3910   13.0600 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5260   -5.9450   12.1240 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.1730   -6.4410   14.3320 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.6650   -5.5410   13.0180 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  4  1  0  0  0  0
+  3  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.1833334
+
+>  <CNNscore>
+0.504065633
+
+>  <CNNaffinity>
+3.57468724
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   19.2180   -7.3700   13.7340 F   0  0  0  0  0  0  0  0  0  0  0  0
+   18.4020   -6.3170   13.9510 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.0570   -6.5390   13.3130 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.2820   -6.1520   15.2850 F   0  0  0  0  0  0  0  0  0  0  0  0
+   19.0000   -5.2170   13.4470 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  4  1  0  0  0  0
+  3  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.98158431
+
+>  <CNNscore>
+0.500592291
+
+>  <CNNaffinity>
+3.6470108
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   14.3670   -7.2420   18.0010 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.6020   -6.7170   18.1550 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.6360   -7.5660   17.4660 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5890   -5.4670   17.6500 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8540   -6.6300   19.4780 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.61529207
+
+>  <CNNscore>
+0.499500602
+
+>  <CNNaffinity>
+3.64836431
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   16.0920   -8.8360   16.9910 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0350   -8.2680   16.3720 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.4640   -7.1500   17.2020 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4490   -7.8140   15.1710 F   0  0  0  0  0  0  0  0  0  0  0  0
+   14.1130   -9.2300   16.1580 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.97529125
+
+>  <CNNscore>
+0.496866822
+
+>  <CNNaffinity>
+3.66249776
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.3970   -6.1560   12.9460 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.4500   -5.7930   12.1830 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.7290   -5.8390   12.9750 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5060   -6.6300   11.1260 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.2150   -4.5480   11.7170 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.320714
+
+>  <CNNscore>
+0.493778765
+
+>  <CNNaffinity>
+3.43604732
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   18.2880   -6.0280   15.2470 F   0  0  0  0  0  0  0  0  0  0  0  0
+   18.4440   -6.2090   13.9180 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.1350   -6.5670   13.2670 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9460   -5.0700   13.3980 F   0  0  0  0  0  0  0  0  0  0  0  0
+   19.3560   -7.1870   13.7370 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.01159859
+
+>  <CNNscore>
+0.493031085
+
+>  <CNNaffinity>
+3.64692688
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   16.9020   -6.6090   18.9130 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.6180   -7.0930   17.6840 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.6500   -8.2410   17.7690 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.1080   -6.0850   16.9470 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.7780   -7.4810   17.1140 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  2  1  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.46930957
+
+>  <CNNscore>
+0.492032468
+
+>  <CNNaffinity>
+3.61846423
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   18.2300   -5.9380   15.1250 F   0  0  0  0  0  0  0  0  0  0  0  0
+   18.7300   -6.1290   13.8850 C   0  0  0  0  0  0  0  0  0  0  0  0
+   20.0620   -6.8270   13.9440 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.8350   -6.8550   13.1830 F   0  0  0  0  0  0  0  0  0  0  0  0
+   18.8430   -4.9220   13.2920 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  2  1  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.95905399
+
+>  <CNNscore>
+0.487869382
+
+>  <CNNaffinity>
+3.50050092
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.1980   -7.8850   15.5190 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1060   -9.0850   16.1300 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.2240   -8.9380   17.6240 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.9230   -9.6370   15.7920 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.0880   -9.8740   15.6440 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.92404032
+
+>  <CNNscore>
+0.483820766
+
+>  <CNNaffinity>
+3.53723907
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   18.0080   -7.4990   17.0980 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.8290   -7.0660   17.5930 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8200   -8.1820   17.6340 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.0520   -6.5720   18.8290 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.3970   -6.0530   16.8120 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  4  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.40531874
+
+>  <CNNscore>
+0.482923329
+
+>  <CNNaffinity>
+3.63750005
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   16.8390   -7.7100   17.5430 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.7470   -6.7360   16.6140 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.8620   -6.8440   15.6090 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5440   -6.8440   16.0140 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.7880   -5.5480   17.2530 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  5  1  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.90302992
+
+>  <CNNscore>
+0.482351363
+
+>  <CNNaffinity>
+3.57723999
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.9110   -6.6500   19.7350 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7320   -6.7830   18.4040 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.0530   -6.9060   17.6940 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9670   -7.8740   18.1930 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0480   -5.7040   17.9670 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.77818847
+
+>  <CNNscore>
+0.480473876
+
+>  <CNNaffinity>
+3.61858177
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.0720   -5.6680   17.9820 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7330   -6.7680   18.4020 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.0480   -6.9100   17.6850 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9190   -6.6590   19.7340 F   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9420   -7.8380   18.1780 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  4  1  0  0  0  0
+  3  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.77563238
+
+>  <CNNscore>
+0.480271488
+
+>  <CNNaffinity>
+3.62351608
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.6160   -7.9010   18.9010 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.2390   -7.1250   17.9890 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.7110   -7.9440   16.8180 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3720   -6.1700   17.5920 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.2760   -6.5160   18.6020 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  5  1  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.50882244
+
+>  <CNNscore>
+0.477057129
+
+>  <CNNaffinity>
+3.66845632
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   18.0860   -8.0070   15.3190 F   0  0  0  0  0  0  0  0  0  0  0  0
+   18.5520   -7.7660   14.0760 C   0  0  0  0  0  0  0  0  0  0  0  0
+   19.3920   -6.5170   14.0500 C   0  0  0  0  0  0  0  0  0  0  0  0
+   19.2690   -8.8390   13.6830 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.4900   -7.6500   13.2500 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.90822434
+
+>  <CNNscore>
+0.475594342
+
+>  <CNNaffinity>
+3.37933421
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.5120   -8.3930   18.6080 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7690   -7.0700   18.5410 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.0210   -6.8050   17.7490 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.7040   -6.4660   17.9760 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8900   -6.6070   19.8030 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.95343924
+
+>  <CNNscore>
+0.469605237
+
+>  <CNNaffinity>
+3.57948947
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   18.3640   -7.5060   15.2330 F   0  0  0  0  0  0  0  0  0  0  0  0
+   18.4800   -8.1200   14.0360 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.0900   -9.5710   14.1360 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.6930   -7.4680   13.1560 F   0  0  0  0  0  0  0  0  0  0  0  0
+   19.7590   -7.9920   13.6260 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  2  1  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.83513165
+
+>  <CNNscore>
+0.466801018
+
+>  <CNNaffinity>
+3.35134053
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   16.0210   -7.0480   19.2120 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5340   -7.3900   18.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3280   -8.8780   17.9040 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.3720   -6.7290   17.8160 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.4090   -6.9640   17.0650 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.23035455
+
+>  <CNNscore>
+0.464197487
+
+>  <CNNaffinity>
+3.55936241
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.4120   -5.9320   17.6270 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.0780   -6.9490   18.2150 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5660   -8.2780   17.7290 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.3900   -6.8050   17.9370 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9200   -6.8310   19.5510 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.84576988
+
+>  <CNNscore>
+0.461140484
+
+>  <CNNaffinity>
+3.54526639
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.0370   -8.9760   18.5200 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.2370   -7.8350   17.8270 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.1100   -6.8830   18.6000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8040   -8.1580   16.6460 F   0  0  0  0  0  0  0  0  0  0  0  0
+   14.0310   -7.2860   17.5730 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.33812189
+
+>  <CNNscore>
+0.456930786
+
+>  <CNNaffinity>
+3.56275821
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.4050   -8.1260   15.0930 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.2360   -7.2000   14.5670 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.4510   -7.8510   13.9620 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5490   -6.5040   13.6380 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5860   -6.3480   15.5520 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.96030474
+
+>  <CNNscore>
+0.450303406
+
+>  <CNNaffinity>
+3.68347621
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   16.5220   -6.3230   15.5230 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.1900   -7.2100   14.5610 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.4170   -7.8650   13.9870 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3630   -8.1260   15.1060 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5050   -6.5470   13.6050 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  4  1  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.95681095
+
+>  <CNNscore>
+0.449539185
+
+>  <CNNaffinity>
+3.69973826
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.5540   -6.4770   13.6270 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.2360   -7.1850   14.5520 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.4410   -7.8480   13.9400 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5990   -6.3410   15.5390 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3950   -8.1020   15.0750 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  4  1  0  0  0  0
+  3  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.95927238
+
+>  <CNNscore>
+0.448914945
+
+>  <CNNaffinity>
+3.68317413
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   17.3360   -6.7070   18.2300 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.0190   -6.8060   18.5120 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4740   -8.1370   18.0680 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8640   -6.6400   19.8420 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3830   -5.7920   17.8890 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  4  1  0  0  0  0
+  3  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-4.09459782
+
+>  <CNNscore>
+0.446400315
+
+>  <CNNaffinity>
+3.46990323
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.8520   -6.6350   19.8570 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.0170   -6.8000   18.5270 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4910   -8.1380   18.0820 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3720   -5.7940   17.9000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.3340   -6.6840   18.2550 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-4.0904603
+
+>  <CNNscore>
+0.446218789
+
+>  <CNNaffinity>
+3.46655154
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   17.7570   -7.1220   17.3870 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.4570   -7.4500   17.5500 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9040   -6.8390   18.8100 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7790   -7.0190   16.4670 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.3700   -8.7960   17.5880 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.30945826
+
+>  <CNNscore>
+0.437564164
+
+>  <CNNaffinity>
+3.55674481
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   16.3390   -8.7840   17.6340 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.4370   -7.4380   17.5830 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8960   -6.8120   18.8400 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.7370   -7.1210   17.4060 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7540   -7.0130   16.4990 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.31934786
+
+>  <CNNscore>
+0.437460512
+
+>  <CNNaffinity>
+3.55983043
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.0880   -6.0400   19.0620 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8470   -6.8850   18.3320 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5580   -6.7340   16.8630 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.1420   -6.6170   18.5990 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5870   -8.1420   18.7490 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.83294535
+
+>  <CNNscore>
+0.427692235
+
+>  <CNNaffinity>
+3.63598752
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.6110   -8.2740   18.5950 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9800   -6.9760   18.5990 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1510   -6.1790   17.6280 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8360   -6.5050   19.8550 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.2900   -6.9150   18.2790 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  4  1  0  0  0  0
+  3  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-4.11306477
+
+>  <CNNscore>
+0.424786508
+
+>  <CNNaffinity>
+3.51374936
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   17.3550   -6.7970   18.2590 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.0460   -6.9570   18.5470 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1870   -6.1520   17.6100 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7580   -8.2720   18.4570 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8530   -6.5750   19.8270 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-4.15352392
+
+>  <CNNscore>
+0.423365772
+
+>  <CNNaffinity>
+3.51760459
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   16.4770   -8.5300   17.2080 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4700   -7.9620   17.9050 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9810   -6.8430   18.7720 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5550   -7.5100   17.0230 F   0  0  0  0  0  0  0  0  0  0  0  0
+   14.8880   -8.9240   18.6520 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.29154944
+
+>  <CNNscore>
+0.423313141
+
+>  <CNNaffinity>
+3.50504041
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   17.7480   -6.0360   14.2310 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.7000   -6.7830   13.8230 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8640   -7.2220   14.9950 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9720   -6.0450   12.9600 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.1870   -7.8480   13.1520 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.95010185
+
+>  <CNNscore>
+0.419601947
+
+>  <CNNaffinity>
+3.50872421
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   16.0120   -5.9740   12.8730 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.7430   -6.7200   13.7290 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9200   -7.1350   14.9190 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.1990   -7.7970   13.0580 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.8090   -5.9860   14.1120 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  3  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.94395113
+
+>  <CNNscore>
+0.415737987
+
+>  <CNNaffinity>
+3.48050117
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   17.1260   -7.8010   13.0500 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.6610   -6.7360   13.7370 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8730   -7.1760   14.9420 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.7180   -5.9810   14.1010 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8960   -6.0040   12.9010 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2  3  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.94800138
+
+>  <CNNscore>
+0.415597439
+
+>  <CNNaffinity>
+3.52604175
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   14.7920   -7.6520   16.8850 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.6200   -8.0270   17.8840 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9350   -6.8630   18.7850 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0220   -9.0220   18.5710 F   0  0  0  0  0  0  0  0  0  0  0  0
+   16.7450   -8.5230   17.3260 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2  3  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.37734222
+
+>  <CNNscore>
+0.415259361
+
+>  <CNNaffinity>
+3.49443889
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   16.7930   -6.6710   11.8520 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.1070   -6.7940   13.1590 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.3040   -5.9510   13.5060 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.0300   -6.4240   13.8830 F   0  0  0  0  0  0  0  0  0  0  0  0
+   17.3470   -8.0990   13.4070 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  4  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.95736051
+
+>  <CNNscore>
+0.412447095
+
+>  <CNNaffinity>
+3.30635142
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   14.3270   -7.5030   17.4370 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3470   -8.1700   18.0160 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.4280   -8.4750   17.0140 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8240   -7.4110   19.0240 F   0  0  0  0  0  0  0  0  0  0  0  0
+   14.8500   -9.3060   18.5500 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  4  1  0  0  0  0
+  3  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.35078049
+
+>  <CNNscore>
+0.386223525
+
+>  <CNNaffinity>
+3.56309509
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   14.6440   -9.4900   18.5180 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0730   -8.7520   17.4720 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5460   -7.3440   17.5570 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.4220   -8.7640   17.4780 F   0  0  0  0  0  0  0  0  0  0  0  0
+   14.6550   -9.3550   16.3400 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  4  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  1  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-2.98692727
+
+>  <CNNscore>
+0.358811677
+
+>  <CNNaffinity>
+3.52500224
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   16.6200   -8.5460   17.4220 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4870   -8.1200   18.0200 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.6390   -7.3270   17.0620 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.8210   -9.2040   18.4710 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8370   -7.3720   19.0880 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.4775691
+
+>  <CNNscore>
+0.350252151
+
+>  <CNNaffinity>
+3.59437728
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.7220   -7.5430   19.1460 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3990   -8.2120   18.0190 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5380   -7.3660   17.1190 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5440   -8.5640   17.4000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   14.7550   -9.3430   18.3780 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  5  1  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.40245819
+
+>  <CNNscore>
+0.340255618
+
+>  <CNNaffinity>
+3.58540249
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   15.6430   -7.9640   18.7830 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1710   -8.8160   17.8470 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.2930   -9.3680   17.0100 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5090   -9.8060   18.4810 F   0  0  0  0  0  0  0  0  0  0  0  0
+   14.2850   -8.1440   17.0830 F   0  0  0  0  0  0  0  0  0  0  0  0
+  2  4  1  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  5  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.21389651
+
+>  <CNNscore>
+0.311497927
+
+>  <CNNaffinity>
+3.42214561
+
+$$$$
+
+ OpenBabel03102621133D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+   14.6720   -8.0120   16.8220 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3850   -8.7600   17.6910 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.6690  -10.0460   18.0060 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5920   -9.0030   17.1390 F   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5770   -8.0280   18.8080 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  5  1  0  0  0  0
+  4  2  1  0  0  0  0
+M  END
+>  <minimizedAffinity>
+-3.04689217
+
+>  <CNNscore>
+0.306617767
+
+>  <CNNaffinity>
+3.35385513
 
 $$$$
