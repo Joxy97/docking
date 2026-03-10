@@ -260,6 +260,46 @@ def remove_one_h_neighbor_per_anchor(rwmol, anchor_a, anchor_b):
     return anchor_a - shift_a, anchor_b - shift_b
 
 
+def remove_cap_hydrogen_for_fragment(mol, anchor_1based):
+    n_atoms = mol.GetNumAtoms()
+    if anchor_1based < 1 or anchor_1based > n_atoms:
+        raise IndexError(
+            f"Anchor atom index {anchor_1based} out of range for molecule with {n_atoms} atoms."
+        )
+
+    editable = Chem.RWMol(Chem.Mol(mol))
+    anchor_0based = anchor_1based - 1
+    anchor_atom = editable.GetAtomWithIdx(anchor_0based)
+
+    for nbr in anchor_atom.GetNeighbors():
+        if nbr.GetAtomicNum() == 1:
+            editable.RemoveAtom(nbr.GetIdx())
+            break
+
+    trimmed = editable.GetMol()
+    trimmed.UpdatePropertyCache(strict=False)
+    Chem.FastFindRings(trimmed)
+    return trimmed
+
+
+def build_anchor_self_energy_cache(fragment_poses, bond_specs, energy_fn):
+    anchors_by_fragment = {}
+    for fa, fb, aa, ab in bond_specs:
+        anchors_by_fragment.setdefault(fa, set()).add(aa)
+        anchors_by_fragment.setdefault(fb, set()).add(ab)
+
+    cache = {}
+    for frag_id, anchors in anchors_by_fragment.items():
+        poses = fragment_poses[frag_id]
+        for anchor in sorted(anchors):
+            energies = []
+            for mol in poses:
+                trimmed = remove_cap_hydrogen_for_fragment(mol, anchor)
+                energies.append(energy_fn(trimmed, include_interfragment=False))
+            cache[(frag_id, anchor)] = energies
+    return cache
+
+
 def build_bonded_pair_mol(mol_a, mol_b, atom_a_1based, atom_b_1based, remove_cap_hydrogens):
     n_a = mol_a.GetNumAtoms()
     n_b = mol_b.GetNumAtoms()
@@ -349,7 +389,15 @@ def write_nonbond_raw(args, raw_dir, fragment_poses, self_energies, energy_fn):
         print(f"Wrote {out_path} ({done} rows)")
 
 
-def write_bond_raw(args, raw_dir, bond_specs, fragment_poses, self_energies, energy_fn):
+def write_bond_raw(
+    args,
+    raw_dir,
+    bond_specs,
+    fragment_poses,
+    self_energies,
+    anchor_self_energies,
+    energy_fn,
+):
     for fa, fb, aa, ab in bond_specs:
         out_path = raw_dir / f"bond_{fa}_{fb}_raw.csv"
         if out_path.exists() and not args.overwrite:
@@ -358,8 +406,12 @@ def write_bond_raw(args, raw_dir, bond_specs, fragment_poses, self_energies, ene
 
         poses_a = fragment_poses[fa]
         poses_b = fragment_poses[fb]
-        energies_a = self_energies[fa]
-        energies_b = self_energies[fb]
+        if args.remove_cap_hydrogens:
+            energies_a = anchor_self_energies[(fa, aa)]
+            energies_b = anchor_self_energies[(fb, ab)]
+        else:
+            energies_a = self_energies[fa]
+            energies_b = self_energies[fb]
 
         done = 0
         failures = 0
@@ -436,15 +488,30 @@ def main():
             frag_id: [energy_fn(mol, include_interfragment=False) for mol in poses]
             for frag_id, poses in fragment_poses.items()
         }
+        if args.write_bond_raw and args.remove_cap_hydrogens:
+            anchor_self_energies = build_anchor_self_energy_cache(
+                fragment_poses, bond_specs, energy_fn
+            )
+        else:
+            anchor_self_energies = {}
     else:
         energy_fn = None
         self_energies = {}
+        anchor_self_energies = {}
 
     if args.write_nonbond_raw:
         write_nonbond_raw(args, raw_dir, fragment_poses, self_energies, energy_fn)
 
     if args.write_bond_raw:
-        write_bond_raw(args, raw_dir, bond_specs, fragment_poses, self_energies, energy_fn)
+        write_bond_raw(
+            args,
+            raw_dir,
+            bond_specs,
+            fragment_poses,
+            self_energies,
+            anchor_self_energies,
+            energy_fn,
+        )
 
     print("Done.")
 
