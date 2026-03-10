@@ -1,9 +1,0 @@
-receptor = aldr2/protein.pdbqt
-ligand = aldr2/fragment1.pdbqt
-center_x = 20.97
-center_y = -0.9400000000000013
-center_z = 20.52
-size_x = 2.0
-size_y = 2.0
-size_z = 2.0
-out = temp_output.pdbqt

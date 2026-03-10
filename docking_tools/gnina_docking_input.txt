@@ -1,8 +1,8 @@
 18.97 -6.94 14.52
-14 14 14
-7 7 7
+16 16 16
+1 1 1
 aldr2/protein.pdbqt
 aldr2/fragment1.pdbqt aldr2/fragment2.pdbqt aldr2/fragment3.pdbqt aldr2/fragment4.pdbqt
-docked2/fragment1.sdf docked2/fragment2.sdf docked2/fragment3.sdf docked2/fragment4.sdf
-vina_docking0.txt
+docked/fragment1.sdf docked/fragment2.sdf docked/fragment3.sdf docked/fragment4.sdf
+gnina_temp_config.txt
 temp_output
