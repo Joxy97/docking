@@ -3,8 +3,8 @@ from shutil import which
 from subprocess import CalledProcessError, run
 
 
-NUM_MODES = 100
-EXHAUSTIVENESS = 64
+NUM_MODES = 200
+EXHAUSTIVENESS = 256
 # Set to True for pure empirical Vina-like scoring instead of GNINA default CNN rescoring.
 EMPIRICAL_VINA_ONLY = False
 
@@ -29,9 +29,26 @@ def gnina_executable():
     )
 
 
+def format_box_component(value):
+    if float(value).is_integer():
+        return str(int(value))
+    return f"{value:g}"
+
+
 cx, cy, cz = list(map(float, input("Box center coordinates: ").split()))
 bx, by, bz = list(map(float, input("Box size: ").split()))
 sx, sy, sz = list(map(int, input("Number of divisions in each direction: ").split()))
+
+if not (bx == by == bz):
+    raise ValueError(
+        "Expected equal box sizes in all directions for folder naming "
+        f"(got size_x={bx}, size_y={by}, size_z={bz})."
+    )
+if not (sx == sy == sz):
+    raise ValueError(
+        "Expected equal divisions in all directions for folder naming "
+        f"(got div_x={sx}, div_y={sy}, div_z={sz})."
+    )
 
 x0 = leftmost_center(bx, sx, cx)
 y0 = leftmost_center(by, sy, cy)
@@ -51,12 +68,21 @@ centers = [(x, y, z) for x in centersx for y in centersy for z in centersz]
 
 receptor = input("receptor address: ").strip()
 ligands = input("ligand address: ").split()
-outputs = input("output file: ").split()
+output_specs = input("output file: ").split()
 docking_config = Path(input("temp config file: ").strip())
 temp_output = Path(input("temp output file name: ").strip())
 
-if len(ligands) != len(outputs):
+if len(ligands) != len(output_specs):
     raise ValueError("The number of ligand files must match the number of output files.")
+
+output_folder_name = f"SDFs_{format_box_component(bx)}_{sx}"
+outputs = []
+for output_spec in output_specs:
+    output_path = Path(output_spec)
+    base_dir = output_path.parent.parent if output_path.parent != Path(".") else Path(".")
+    outputs.append(base_dir / output_folder_name / output_path.name)
+
+print(f"SDF output folder: {outputs[0].parent}")
 
 gnina = gnina_executable()
 

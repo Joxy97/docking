@@ -69,18 +69,25 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Docking QUBO pipeline exported from notebook.")
     parser.add_argument("--log-run", action=argparse.BooleanOptionalAction, default=False)
     parser.add_argument("--bonding-fragments", type=parse_bonding_fragments, default=[(1, 2), (1, 3), (2, 4)])
-    parser.add_argument("--target-path", type=str, default="data/SDFs/target.sdf")
+
+    parser.add_argument("--target-path", type=str, default="data/target.sdf")
+    parser.add_argument("--box-size", type=str, default="16")
+    parser.add_argument("--divisions", type=str, default="2")
     parser.add_argument("--num-fragments", type=int, default=4)
+
     parser.add_argument("--compression", action=argparse.BooleanOptionalAction, default=True)
-    parser.add_argument("--q-fragment", type=float, default=0.95)
-    parser.add_argument("--q-clash", type=float, default=0.95)
-    parser.add_argument("--q-bond", type=float, default=0.95)
+    parser.add_argument("--q-fragment", type=float, default=1)
+    parser.add_argument("--q-clash", type=float, default=1)
+    parser.add_argument("--q-bond", type=float, default=1)
     parser.add_argument("--clip-max", type=float, default=500.0)
+
     parser.add_argument("--sampler", type=str, choices=["SA", "BQM"], default="SA")
-    parser.add_argument("--lambda-fragment", type=float, default=1.0)
-    parser.add_argument("--lambda-clash", type=float, default=1.0)
-    parser.add_argument("--lambda-bond", type=float, default=1.0)
+
+    parser.add_argument("--lambda-fragment", type=float, default=1)
+    parser.add_argument("--lambda-clash", type=float, default=5)
+    parser.add_argument("--lambda-bond", type=float, default=5)
     parser.add_argument("--rmsd-criterion", type=float, default=2.0)
+
     parser.add_argument("--num-reads", type=int, default=2000)
     parser.add_argument("--num-sweeps", type=int, default=1000)
     return parser
@@ -90,7 +97,11 @@ ARGS = build_parser().parse_args()
 
 LOG_RUN = ARGS.log_run
 BONDING_FRAGMENTS = [tuple(map(int, pair)) for pair in ARGS.bonding_fragments]
-TARGET_PATH = ARGS.target_path
+BOX_SIZE = ARGS.box_size
+DIVISIONS = ARGS.divisions
+SDF_DIR = Path(f"data/SDFs_{BOX_SIZE}_{DIVISIONS}")
+RAW_DIR = Path(f"data/raw_{BOX_SIZE}_{DIVISIONS}")
+TARGET_PATH = ARGS.target_path if ARGS.target_path else str(SDF_DIR / "target.sdf")
 
 NUM_FRAGMENTS = int(ARGS.num_fragments)
 NUM_PAIRS = int(NUM_FRAGMENTS * (NUM_FRAGMENTS - 1) / 2)
@@ -116,6 +127,7 @@ RMSD_CRITERION = float(ARGS.rmsd_criterion)
 
 NUM_READS = int(ARGS.num_reads)
 NUM_SWEEPS = int(ARGS.num_sweeps)
+RUN_TAG = f"{SAMPLER}_{BOX_SIZE}_{DIVISIONS}"
 
 # Remove GNINA capping heavy atoms before final ligand assembly.
 # Atom indices are 1-based and local to each fragment SDF.
@@ -165,7 +177,7 @@ if LOG_RUN:
     QUBO_FOLDER = RUN_FOLDER / "qubo"
     QUBO_FOLDER.mkdir(parents=True, exist_ok=True)
 
-    RESULTS_FOLDER = RUN_FOLDER / "results"
+    RESULTS_FOLDER = RUN_FOLDER / f"results_{RUN_TAG}"
     RESULTS_FOLDER.mkdir(parents=True, exist_ok=True)
 
 
@@ -181,13 +193,13 @@ NUM_PAIRS = math.comb(NUM_FRAGMENTS, 2)
 
 # Load single-fragment dataframes
 fragments = {
-    i: pd.read_csv(f"data/raw/fragment_{i}_raw.csv")
+    i: pd.read_csv(RAW_DIR / f"fragment_{i}_raw.csv")
     for i in range(1, NUM_FRAGMENTS + 1)
 }
 
 # Load pairwise dataframes
 clashes = {
-    (i, j): pd.read_csv(f"data/raw/clash_{i}_{j}_raw.csv")
+    (i, j): pd.read_csv(RAW_DIR / f"clash_{i}_{j}_raw.csv")
     for i, j in combinations(range(1, NUM_FRAGMENTS + 1), 2)
 }
 
@@ -204,7 +216,7 @@ for i, j in requested_bond_pairs:
 missing_bond_files = [
     (i, j)
     for i, j in requested_bond_pairs
-    if not Path(f"data/raw/bond_{i}_{j}_raw.csv").exists()
+    if not (RAW_DIR / f"bond_{i}_{j}_raw.csv").exists()
 ]
 if missing_bond_files:
     print(
@@ -215,13 +227,13 @@ if missing_bond_files:
 requested_bond_pairs = [
     (i, j)
     for i, j in requested_bond_pairs
-    if Path(f"data/raw/bond_{i}_{j}_raw.csv").exists()
+    if (RAW_DIR / f"bond_{i}_{j}_raw.csv").exists()
 ]
 if not requested_bond_pairs:
     raise FileNotFoundError("No usable bond raw CSV files found for requested bond pairs.")
 
 bonds = {
-    (i, j): pd.read_csv(f"data/raw/bond_{i}_{j}_raw.csv")
+    (i, j): pd.read_csv(RAW_DIR / f"bond_{i}_{j}_raw.csv")
     for i, j in requested_bond_pairs
 }
 
@@ -895,21 +907,22 @@ for i, row in enumerate(rows, start=1):
 '''
 
 print("\n=== Best Solution ===")
-print(
-    f"{rows[0]['solution']} | "
-    f"qubo_score={rows[0]['score_total']:.2f} | "
-    f"(f={rows[0]['score_fragment']:.2f}/{NUM_FRAGMENTS}, c={rows[0]['score_clash']:.2f}/{NUM_PAIRS}, b={rows[0]['score_bond']:.2f}/{NUM_BONDING}) | "
-    f"raw_energy={rows[0]['raw_total']:.2f}"
-)
-
 if rows:
+    print(
+        f"{rows[0]['solution']} | "
+        f"qubo_score={rows[0]['score_total']:.2f} | "
+        f"(f={rows[0]['score_fragment']:.2f}/{NUM_FRAGMENTS}, c={rows[0]['score_clash']:.2f}/{NUM_PAIRS}, b={rows[0]['score_bond']:.2f}/{NUM_BONDING}) | "
+        f"raw_energy={rows[0]['raw_total']:.2f}"
+    )
     SCORE = f"{rows[0]['score_total']:.2f}"
 else:
     SCORE = "NA"
     print("No valid one-hot solutions found in the sample set.")
 
 if LOG_RUN and rows:
-    csv_path = RESULTS_FOLDER / f"{SAMPLER}_lamF-{LAMBDA_FRAGMENT}_lamC-{LAMBDA_CLASH}_lamB-{LAMBDA_BOND}_solutions.csv"
+    csv_path = RESULTS_FOLDER / (
+        f"{RUN_TAG}_lamF-{LAMBDA_FRAGMENT}_lamC-{LAMBDA_CLASH}_lamB-{LAMBDA_BOND}_solutions.csv"
+    )
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["rank", "solution", "score_total", "score_total_unweighted", "score_fragment", "score_clash", "score_bond", "score_fragment_weighted", "score_clash_weighted", "score_bond_weighted", "raw_total", "raw_fragment", "raw_clash", "raw_bond"])
@@ -932,6 +945,9 @@ if LOG_RUN and rows:
     print(f"Wrote CSV to {csv_path}")
 elif LOG_RUN:
     print("Skipped CSV export because no valid one-hot rows were found.")
+
+if not rows:
+    raise SystemExit(0)
 
 
 # # Evaluation
@@ -986,10 +1002,10 @@ def decap_fragment(mol, fragment_id):
     return decapped
 
 
-with Chem.SDMolSupplier("./data/SDFs/fragment_1.sdf") as s1:
-    with Chem.SDMolSupplier("./data/SDFs/fragment_2.sdf") as s2:
-        with Chem.SDMolSupplier("./data/SDFs/fragment_3.sdf") as s3:
-            with Chem.SDMolSupplier("./data/SDFs/fragment_4.sdf") as s4:
+with Chem.SDMolSupplier(str(SDF_DIR / "fragment_1.sdf")) as s1:
+    with Chem.SDMolSupplier(str(SDF_DIR / "fragment_2.sdf")) as s2:
+        with Chem.SDMolSupplier(str(SDF_DIR / "fragment_3.sdf")) as s3:
+            with Chem.SDMolSupplier(str(SDF_DIR / "fragment_4.sdf")) as s4:
                 i1, i2, i3, i4 = extract_poses(0, rows)
                 raw_mols = {1: s1[i1], 2: s2[i2], 3: s3[i3], 4: s4[i4]}
                 selected_mols = {
@@ -1025,13 +1041,13 @@ with Chem.SDMolSupplier("./data/SDFs/fragment_1.sdf") as s1:
 
                 if LOG_RUN:
                     SOLUTION_PATH = RESULTS_FOLDER / (
-                        f"{SAMPLER}_lam-{LAMBDA_FRAGMENT}-{LAMBDA_CLASH}-{LAMBDA_BOND}_score-{SCORE}.sdf"
+                        f"{RUN_TAG}_lam-{LAMBDA_FRAGMENT}-{LAMBDA_CLASH}-{LAMBDA_BOND}_score-{SCORE}.sdf"
                     )
                 else:
-                    TEST_DIR = Path(f"test_{SAMPLER}_nr-{NUM_READS}_ns-{NUM_SWEEPS}")
+                    TEST_DIR = Path(f"test_{RUN_TAG}_nr-{NUM_READS}_ns-{NUM_SWEEPS}")
                     TEST_DIR.mkdir(parents=True, exist_ok=True)
                     SOLUTION_PATH = TEST_DIR / (
-                        f"{SAMPLER}_lam-{LAMBDA_FRAGMENT}-{LAMBDA_CLASH}-{LAMBDA_BOND}_score-{SCORE}.sdf"
+                        f"{RUN_TAG}_lam-{LAMBDA_FRAGMENT}-{LAMBDA_CLASH}-{LAMBDA_BOND}_score-{SCORE}.sdf"
                     )
 
                 writer = Chem.SDWriter(SOLUTION_PATH)

@@ -18,6 +18,7 @@ DEFAULT_BOND_SPECS = [
 ]
 
 VINA_RESULT_PATTERN = re.compile(r"VINA RESULT:\s*([-+]?(?:\d*\.\d+|\d+)(?:[eE][-+]?\d+)?)")
+SDFS_FOLDER_PATTERN = re.compile(r"^SDFs_(.+)_(.+)$")
 
 
 def parse_bond_spec(spec):
@@ -49,14 +50,32 @@ def build_parser():
     parser.add_argument(
         "--poses-dir",
         type=Path,
-        default=REPO_ROOT / "data/SDFs",
-        help="Directory containing fragment SDF files.",
+        default=None,
+        help=(
+            "Directory containing fragment SDF files. If omitted, uses "
+            "data/SDFs_{BOX_SIZE}_{DIVISIONS} from --box-size/--divisions."
+        ),
+    )
+    parser.add_argument(
+        "--box-size",
+        type=str,
+        default="16",
+        help="Box size token used to derive default poses dir: data/SDFs_{BOX_SIZE}_{DIVISIONS}.",
+    )
+    parser.add_argument(
+        "--divisions",
+        type=str,
+        default="2",
+        help="Division token used to derive default poses dir: data/SDFs_{BOX_SIZE}_{DIVISIONS}.",
     )
     parser.add_argument(
         "--raw-dir",
         type=Path,
-        default=REPO_ROOT / "data/raw",
-        help="Output directory for raw CSV files.",
+        default=None,
+        help=(
+            "Output directory for raw CSV files. Defaults to data/raw for data/SDFs, "
+            "or data/raw_{BOX_SIZE}_{DIVISIONS} for data/SDFs_{BOX_SIZE}_{DIVISIONS}."
+        ),
     )
     parser.add_argument(
         "--fragments",
@@ -147,6 +166,22 @@ def resolve_poses_dir(path):
     if relative_to_repo.exists():
         return relative_to_repo
     return direct
+
+
+def default_raw_dir_from_poses_dir(poses_dir):
+    if poses_dir.name == "SDFs":
+        return poses_dir.parent / "raw"
+
+    match = SDFS_FOLDER_PATTERN.fullmatch(poses_dir.name)
+    if match:
+        box_size, divisions = match.groups()
+        return poses_dir.parent / f"raw_{box_size}_{divisions}"
+
+    return REPO_ROOT / "data/raw"
+
+
+def default_poses_dir_from_grid(box_size, divisions):
+    return REPO_ROOT / "data" / f"SDFs_{box_size}_{divisions}"
 
 
 def resolve_fragment_sdf(poses_dir, frag_id):
@@ -450,12 +485,20 @@ def write_bond_raw(
 def main():
     args = build_parser().parse_args()
 
-    poses_dir = resolve_poses_dir(args.poses_dir)
-    raw_dir = args.raw_dir if args.raw_dir.is_absolute() else REPO_ROOT / args.raw_dir
+    if args.poses_dir is None:
+        poses_dir = default_poses_dir_from_grid(args.box_size, args.divisions)
+    else:
+        poses_dir = resolve_poses_dir(args.poses_dir)
+    if args.raw_dir is None:
+        raw_dir = default_raw_dir_from_poses_dir(poses_dir)
+    else:
+        raw_dir = args.raw_dir if args.raw_dir.is_absolute() else REPO_ROOT / args.raw_dir
 
     if not poses_dir.exists():
         raise FileNotFoundError(f"Poses directory not found: {poses_dir}")
     raw_dir.mkdir(parents=True, exist_ok=True)
+    print(f"Using poses dir: {poses_dir}")
+    print(f"Using raw dir:   {raw_dir}")
 
     bond_specs = args.bond_spec
     if bond_specs is None:

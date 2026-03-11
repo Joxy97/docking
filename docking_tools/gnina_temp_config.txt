@@ -7,5 +7,5 @@ size_x = 16.0
 size_y = 16.0
 size_z = 16.0
 out = docking_tools/temp_output.sdf
-num_modes = 100
-exhaustiveness = 64
+num_modes = 200
+exhaustiveness = 256
