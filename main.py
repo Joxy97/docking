@@ -69,27 +69,26 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Docking QUBO pipeline exported from notebook.")
     parser.add_argument("--log-run", action=argparse.BooleanOptionalAction, default=False)
     parser.add_argument("--bonding-fragments", type=parse_bonding_fragments, default=[(1, 2), (1, 3), (2, 4)])
-
     parser.add_argument("--target-path", type=str, default="data/target.sdf")
     parser.add_argument("--box-size", type=str, default="16")
     parser.add_argument("--divisions", type=str, default="2")
     parser.add_argument("--num-fragments", type=int, default=4)
-
     parser.add_argument("--compression", action=argparse.BooleanOptionalAction, default=True)
     parser.add_argument("--q-fragment", type=float, default=1)
     parser.add_argument("--q-clash", type=float, default=1)
     parser.add_argument("--q-bond", type=float, default=1)
     parser.add_argument("--clip-max", type=float, default=500.0)
-
     parser.add_argument("--sampler", type=str, choices=["SA", "BQM"], default="SA")
 
-    parser.add_argument("--lambda-fragment", type=float, default=5)
-    parser.add_argument("--lambda-clash", type=float, default=3)
+    parser.add_argument("--num-reads", type=int, default=10)
+    parser.add_argument("--num-sweeps", type=int, default=10000)
+
+    parser.add_argument("--lambda-fragment", type=float, default=1)
+    parser.add_argument("--lambda-clash", type=float, default=1)
     parser.add_argument("--lambda-bond", type=float, default=1)
+    
     parser.add_argument("--rmsd-criterion", type=float, default=2.0)
 
-    parser.add_argument("--num-reads", type=int, default=2000)
-    parser.add_argument("--num-sweeps", type=int, default=1000)
     return parser
 
 
@@ -253,28 +252,83 @@ if missing_anchor_pairs:
     )
 
 
-# ## Clip Input Energies
+# ## Clip Above 500 kCal
 
 # In[4.5]:
 
 
-def clip_df(df, max_val=CLIP_MAX):
-    numeric_cols = df.select_dtypes(include="number").columns
-    df[numeric_cols] = df[numeric_cols].clip(upper=max_val)
-    return df
+CLIP_MAX
 
+# Initialize pose support sets for each fragment
+clash_sets = {i: set() for i in fragments.keys()}
+bond_sets = {i: set() for i in fragments.keys()}
 
-# Clip fragment data
-for k in fragments:
-    fragments[k] = clip_df(fragments[k])
+# Collect poses that participate in at least one clash interaction with energy < threshold
+for (f1, f2), df in clashes.items():
+    valid_rows = df[df["energy"] < CLIP_MAX]
+    clash_sets[f1].update(valid_rows["p1"].astype(int).tolist())
+    clash_sets[f2].update(valid_rows["p2"].astype(int).tolist())
 
-# Clip clash data
-for k in clashes:
-    clashes[k] = clip_df(clashes[k])
+# Collect poses that participate in at least one bond interaction with energy < threshold
+for (f1, f2), df in bonds.items():
+    valid_rows = df[df["energy"] < CLIP_MAX]
+    bond_sets[f1].update(valid_rows["p1"].astype(int).tolist())
+    bond_sets[f2].update(valid_rows["p2"].astype(int).tolist())
 
-# Clip bond data
-for k in bonds:
-    bonds[k] = clip_df(bonds[k])
+# Fragments that actually appear in bond files
+bonded_fragments = {frag for pair in bonds.keys() for frag in pair}
+
+# Valid poses = intersection of clash-supported and bond-supported poses
+valid_pose_sets = {}
+for i in fragments.keys():
+    if i in bonded_fragments:
+        valid_pose_sets[i] = clash_sets[i] & bond_sets[i]
+    else:
+        # If fragment has no bond table, keep all its poses
+        valid_pose_sets[i] = set(fragments[i]["p"].astype(int).tolist())
+
+# Filter fragment tables
+fragments_filtered = {}
+for i, df in fragments.items():
+    original_len = len(df)
+    keep_mask = df["p"].astype(int).isin(valid_pose_sets[i])
+    fragments_filtered[i] = df.loc[keep_mask].copy().reset_index(drop=True)
+
+    print(
+        f"Fragment {i}: kept {len(fragments_filtered[i])}/{original_len} poses "
+        f"(removed {original_len - len(fragments_filtered[i])})"
+    )
+
+# Overwrite original fragments
+fragments = fragments_filtered
+
+# Prune clashes and bonds so they reference only surviving poses
+clashes_filtered = {}
+for (f1, f2), df in clashes.items():
+    mask = (
+        df["p1"].astype(int).isin(valid_pose_sets[f1])
+        & df["p2"].astype(int).isin(valid_pose_sets[f2])
+    )
+    clashes_filtered[(f1, f2)] = df.loc[mask].copy().reset_index(drop=True)
+
+    print(
+        f"Clash ({f1}, {f2}): kept {len(clashes_filtered[(f1, f2)])}/{len(df)} rows"
+    )
+
+bonds_filtered = {}
+for (f1, f2), df in bonds.items():
+    mask = (
+        df["p1"].astype(int).isin(valid_pose_sets[f1])
+        & df["p2"].astype(int).isin(valid_pose_sets[f2])
+    )
+    bonds_filtered[(f1, f2)] = df.loc[mask].copy().reset_index(drop=True)
+
+    print(
+        f"Bond ({f1}, {f2}): kept {len(bonds_filtered[(f1, f2)])}/{len(df)} rows"
+    )
+
+clashes = clashes_filtered
+bonds = bonds_filtered
 
 
 # ## Shift Energies
@@ -683,7 +737,7 @@ if SAMPLER == "SA":
     NUM_INTERACTIONS = bqm.num_interactions
 
     t0 = time.perf_counter()
-    sampleset = sampler.sample(bqm, num_reads=NUM_READS, num_sweeps=NUM_SWEEPS)
+    sampleset = sampler.sample(bqm, num_reads=NUM_READS, num_sweeps=NUM_SWEEPS, beta_schedule_type="geometric")
     SOLVING_TIME = time.perf_counter() - t0
     sampleset = sampleset.aggregate()
     print(f"Solving time ({SAMPLER}): {SOLVING_TIME:.3f} s")
@@ -1002,6 +1056,15 @@ def decap_fragment(mol, fragment_id):
     return decapped
 
 
+def next_available_sdf_path(output_dir: Path, base_name: str) -> Path:
+    copy_index = 1
+    while True:
+        candidate = output_dir / f"{base_name}_{copy_index}.sdf"
+        if not candidate.exists():
+            return candidate
+        copy_index += 1
+
+
 with Chem.SDMolSupplier(str(SDF_DIR / "fragment_1.sdf")) as s1:
     with Chem.SDMolSupplier(str(SDF_DIR / "fragment_2.sdf")) as s2:
         with Chem.SDMolSupplier(str(SDF_DIR / "fragment_3.sdf")) as s3:
@@ -1040,15 +1103,15 @@ with Chem.SDMolSupplier(str(SDF_DIR / "fragment_1.sdf")) as s1:
                 Chem.SanitizeMol(combined)
 
                 if LOG_RUN:
-                    SOLUTION_PATH = RESULTS_FOLDER / (
-                        f"{RUN_TAG}_lam-{LAMBDA_FRAGMENT}-{LAMBDA_CLASH}-{LAMBDA_BOND}_score-{SCORE}.sdf"
-                    )
+                    output_dir = RESULTS_FOLDER
                 else:
-                    TEST_DIR = Path(f"test_{RUN_TAG}_nr-{NUM_READS}_ns-{NUM_SWEEPS}")
-                    TEST_DIR.mkdir(parents=True, exist_ok=True)
-                    SOLUTION_PATH = TEST_DIR / (
-                        f"{RUN_TAG}_lam-{LAMBDA_FRAGMENT}-{LAMBDA_CLASH}-{LAMBDA_BOND}_score-{SCORE}.sdf"
-                    )
+                    output_dir = Path(f"test_{RUN_TAG}_nr-{NUM_READS}_ns-{NUM_SWEEPS}")
+                    output_dir.mkdir(parents=True, exist_ok=True)
+
+                base_name = (
+                    f"{RUN_TAG}_lam-{LAMBDA_FRAGMENT}-{LAMBDA_CLASH}-{LAMBDA_BOND}_score-{SCORE}"
+                )
+                SOLUTION_PATH = next_available_sdf_path(output_dir, base_name)
 
                 writer = Chem.SDWriter(SOLUTION_PATH)
                 writer.write(combined)
