@@ -17,6 +17,14 @@ DEFAULT_BOND_SPECS = [
     "2-4:6-3",
 ]
 
+# Explicit decap rules (1-based atom indices) requested by project workflow.
+DECAP_REMOVE_ATOMS = {
+    1: (),
+    2: (6, 11),
+    3: (2,),
+    4: (3,),
+}
+
 VINA_RESULT_PATTERN = re.compile(r"VINA RESULT:\s*([-+]?(?:\d*\.\d+|\d+)(?:[eE][-+]?\d+)?)")
 SDFS_FOLDER_PATTERN = re.compile(r"^SDFs_(.+)_(.+)$")
 
@@ -38,6 +46,85 @@ def parse_bond_spec(spec):
     if fa >= fb:
         raise ArgumentTypeError(f"Fragment IDs must be increasing (fa < fb) in '{spec}'.")
     return (fa, fb, aa, ab)
+
+
+def decap_atoms_for_fragment(frag_id):
+    return tuple(sorted(set(DECAP_REMOVE_ATOMS.get(frag_id, ()))))
+
+
+def _shifted_index_after_removals(index_1based, removed_atoms_1based):
+    return index_1based - sum(1 for idx in removed_atoms_1based if idx < index_1based)
+
+
+def decap_fragment_pose(mol, frag_id):
+    remove_atoms = decap_atoms_for_fragment(frag_id)
+    if not remove_atoms:
+        return Chem.Mol(mol)
+
+    n_atoms = mol.GetNumAtoms()
+    for atom_idx in remove_atoms:
+        if atom_idx < 1 or atom_idx > n_atoms:
+            raise IndexError(
+                f"Decap atom index {atom_idx} out of range for fragment {frag_id} "
+                f"({n_atoms} atoms)."
+            )
+
+    editable = Chem.RWMol(Chem.Mol(mol))
+    for atom_idx in sorted(remove_atoms, reverse=True):
+        editable.RemoveAtom(atom_idx - 1)
+
+    decapped = editable.GetMol()
+    decapped.UpdatePropertyCache(strict=False)
+    Chem.FastFindRings(decapped)
+    return decapped
+
+
+def translate_anchor_after_decap(frag_id, anchor_1based, reference_mol):
+    remove_atoms = decap_atoms_for_fragment(frag_id)
+    remove_set = set(remove_atoms)
+
+    n_atoms = reference_mol.GetNumAtoms()
+    if anchor_1based < 1 or anchor_1based > n_atoms:
+        raise IndexError(
+            f"Anchor atom index {anchor_1based} out of range for fragment {frag_id} "
+            f"({n_atoms} atoms)."
+        )
+
+    if anchor_1based not in remove_set:
+        return _shifted_index_after_removals(anchor_1based, remove_atoms)
+
+    anchor_atom = reference_mol.GetAtomWithIdx(anchor_1based - 1)
+    surviving_neighbors = sorted(
+        {
+            nbr.GetIdx() + 1
+            for nbr in anchor_atom.GetNeighbors()
+            if (nbr.GetIdx() + 1) not in remove_set
+        }
+    )
+
+    if len(surviving_neighbors) != 1:
+        raise ValueError(
+            f"Cannot translate removed anchor atom {anchor_1based} for fragment {frag_id}. "
+            f"Expected exactly one surviving neighbor, got {surviving_neighbors}."
+        )
+
+    return _shifted_index_after_removals(surviving_neighbors[0], remove_atoms)
+
+
+def build_decapped_fragment_poses(fragment_poses):
+    decapped = {}
+    for frag_id, poses in fragment_poses.items():
+        decapped[frag_id] = [decap_fragment_pose(mol, frag_id) for mol in poses]
+    return decapped
+
+
+def translate_bond_specs_to_decapped(bond_specs, fragment_poses):
+    translated = []
+    for fa, fb, aa, ab in bond_specs:
+        aa_decapped = translate_anchor_after_decap(fa, aa, fragment_poses[fa][0])
+        ab_decapped = translate_anchor_after_decap(fb, ab, fragment_poses[fb][0])
+        translated.append((fa, fb, aa_decapped, ab_decapped))
+    return translated
 
 
 def build_parser():
@@ -526,31 +613,50 @@ def main():
         write_fragment_raw(args, raw_dir, fragment_poses)
 
     if args.write_nonbond_raw or args.write_bond_raw:
+        decapped_fragment_poses = build_decapped_fragment_poses(fragment_poses)
+
+        for frag_id in sorted(decapped_fragment_poses):
+            original_atoms = fragment_poses[frag_id][0].GetNumAtoms()
+            decapped_atoms = decapped_fragment_poses[frag_id][0].GetNumAtoms()
+            removed = decap_atoms_for_fragment(frag_id)
+            print(
+                f"Fragment {frag_id} decap: removed {removed if removed else 'none'} "
+                f"({original_atoms} -> {decapped_atoms} atoms)"
+            )
+
         energy_fn = select_energy_fn(args.method)
         self_energies = {
             frag_id: [energy_fn(mol, include_interfragment=False) for mol in poses]
-            for frag_id, poses in fragment_poses.items()
+            for frag_id, poses in decapped_fragment_poses.items()
         }
+        if args.write_bond_raw:
+            decapped_bond_specs = translate_bond_specs_to_decapped(bond_specs, fragment_poses)
+            for original, decapped in zip(bond_specs, decapped_bond_specs):
+                print(f"Bond spec (original -> decapped): {original} -> {decapped}")
+        else:
+            decapped_bond_specs = bond_specs
         if args.write_bond_raw and args.remove_cap_hydrogens:
             anchor_self_energies = build_anchor_self_energy_cache(
-                fragment_poses, bond_specs, energy_fn
+                decapped_fragment_poses, decapped_bond_specs, energy_fn
             )
         else:
             anchor_self_energies = {}
     else:
+        decapped_fragment_poses = {}
+        decapped_bond_specs = bond_specs
         energy_fn = None
         self_energies = {}
         anchor_self_energies = {}
 
     if args.write_nonbond_raw:
-        write_nonbond_raw(args, raw_dir, fragment_poses, self_energies, energy_fn)
+        write_nonbond_raw(args, raw_dir, decapped_fragment_poses, self_energies, energy_fn)
 
     if args.write_bond_raw:
         write_bond_raw(
             args,
             raw_dir,
-            bond_specs,
-            fragment_poses,
+            decapped_bond_specs,
+            decapped_fragment_poses,
             self_energies,
             anchor_self_energies,
             energy_fn,

@@ -83,9 +83,9 @@ def build_parser() -> argparse.ArgumentParser:
 
     parser.add_argument("--sampler", type=str, choices=["SA", "BQM"], default="SA")
 
-    parser.add_argument("--lambda-fragment", type=float, default=1)
-    parser.add_argument("--lambda-clash", type=float, default=5)
-    parser.add_argument("--lambda-bond", type=float, default=5)
+    parser.add_argument("--lambda-fragment", type=float, default=5)
+    parser.add_argument("--lambda-clash", type=float, default=3)
+    parser.add_argument("--lambda-bond", type=float, default=1)
     parser.add_argument("--rmsd-criterion", type=float, default=2.0)
 
     parser.add_argument("--num-reads", type=int, default=2000)
