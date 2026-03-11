@@ -75,6 +75,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--q-fragment", type=float, default=0.95)
     parser.add_argument("--q-clash", type=float, default=0.95)
     parser.add_argument("--q-bond", type=float, default=0.95)
+    parser.add_argument("--clip-max", type=float, default=500.0)
     parser.add_argument("--sampler", type=str, choices=["SA", "BQM"], default="SA")
     parser.add_argument("--lambda-fragment", type=float, default=1.0)
     parser.add_argument("--lambda-clash", type=float, default=1.0)
@@ -99,6 +100,7 @@ COMPRESSION = ARGS.compression
 Q_FRAGMENT = float(ARGS.q_fragment)
 Q_CLASH = float(ARGS.q_clash)
 Q_BOND = float(ARGS.q_bond)
+CLIP_MAX = float(ARGS.clip_max)
 
 SAMPLER = ARGS.sampler
 LAMBDA_FRAGMENT = float(ARGS.lambda_fragment)
@@ -114,6 +116,21 @@ RMSD_CRITERION = float(ARGS.rmsd_criterion)
 
 NUM_READS = int(ARGS.num_reads)
 NUM_SWEEPS = int(ARGS.num_sweeps)
+
+# Remove GNINA capping heavy atoms before final ligand assembly.
+# Atom indices are 1-based and local to each fragment SDF.
+FRAGMENT_CAP_ATOMS = {
+    2: (6, 11),
+    3: (2,),
+    4: (3,),
+}
+
+# Bond anchors for decapped fragments (1-based local atom indices).
+BOND_ANCHORS = {
+    (1, 2): (13, 9),
+    (1, 3): (10, 1),
+    (2, 4): (5, 2),
+}
 
 
 # ## Make Directories for Logging
@@ -215,6 +232,37 @@ HARD_PENALTY = 10 * (
     + LAMBDA_CLASH * NUM_PAIRS
     + LAMBDA_BOND * NUM_BONDING
 )
+
+missing_anchor_pairs = [pair for pair in BONDING_FRAGMENTS if pair not in BOND_ANCHORS]
+if missing_anchor_pairs:
+    raise ValueError(
+        "Missing SDF anchor definitions for bonding pairs: "
+        f"{missing_anchor_pairs}. Extend BOND_ANCHORS in main.py."
+    )
+
+
+# ## Clip Input Energies
+
+# In[4.5]:
+
+
+def clip_df(df, max_val=CLIP_MAX):
+    numeric_cols = df.select_dtypes(include="number").columns
+    df[numeric_cols] = df[numeric_cols].clip(upper=max_val)
+    return df
+
+
+# Clip fragment data
+for k in fragments:
+    fragments[k] = clip_df(fragments[k])
+
+# Clip clash data
+for k in clashes:
+    clashes[k] = clip_df(clashes[k])
+
+# Clip bond data
+for k in bonds:
+    bonds[k] = clip_df(bonds[k])
 
 
 # ## Shift Energies
@@ -898,46 +946,97 @@ def extract_poses(index, rows):
     i1, i2, i3, i4 = [int(re.findall(r'\d+', s)[1]) for s in sol]
     return i1, i2, i3, i4
 
-with Chem.SDMolSupplier('./data/SDFs/fragment_1.sdf') as s1:
-	with Chem.SDMolSupplier('./data/SDFs/fragment_2.sdf') as s2:
-		with Chem.SDMolSupplier('./data/SDFs/fragment_3.sdf') as s3:
-			with Chem.SDMolSupplier('./data/SDFs/fragment_4.sdf') as s4:
-				i1, i2, i3, i4 = extract_poses(0, rows)
-				mol1, mol2, mol3, mol4 = s1[i1], s2[i2], s3[i3], s4[i4]
+def fragment_atom_offsets(fragment_mols):
+    offsets = {}
+    cursor = 0
+    for frag_id in sorted(fragment_mols):
+        offsets[frag_id] = cursor
+        cursor += fragment_mols[frag_id].GetNumAtoms()
+    return offsets
 
-				combined = Chem.CombineMols(mol1, mol2)
-				combined = Chem.CombineMols(combined, mol3)
-				combined = Chem.CombineMols(combined, mol4)
 
-				combined_mol = Chem.AddHs(combined, explicitOnly = True)
-				combined_mol = Chem.RemoveHs(combined)
-				editable_mol = Chem.EditableMol(combined)
+def to_global_atom_idx(offsets, fragment_id, atom_idx_1based):
+    return offsets[fragment_id] + (atom_idx_1based - 1)
 
-				# 1 - 2
-				editable_mol.AddBond(12, 21, order = Chem.BondType.SINGLE)
-				# 1 - 3
-				editable_mol.AddBond(9, 22, order = Chem.BondType.SINGLE)
-				# 2 - 4
-				editable_mol.AddBond(17, 26, order = Chem.BondType.SINGLE)
 
-				combined = editable_mol.GetMol()
+def decap_fragment(mol, fragment_id):
+    cap_atoms_1based = FRAGMENT_CAP_ATOMS.get(fragment_id, ())
+    if not cap_atoms_1based:
+        decapped = Chem.Mol(mol)
+        decapped.UpdatePropertyCache(strict=False)
+        Chem.FastFindRings(decapped)
+        return decapped
 
-				combined.GetAtomWithIdx(12).SetNumExplicitHs(0)
-				combined.GetAtomWithIdx(9).SetNumExplicitHs(0)
-				combined.GetAtomWithIdx(17).SetNumExplicitHs(0)
+    n_atoms = mol.GetNumAtoms()
+    to_remove_0based = sorted({idx - 1 for idx in cap_atoms_1based}, reverse=True)
+    for idx0 in to_remove_0based:
+        if idx0 < 0 or idx0 >= n_atoms:
+            raise IndexError(
+                f"Cap atom index {idx0 + 1} out of range for fragment {fragment_id} "
+                f"with {n_atoms} atoms."
+            )
 
-				Chem.SanitizeMol(combined)
+    editable = Chem.RWMol(Chem.Mol(mol))
+    for idx0 in to_remove_0based:
+        editable.RemoveAtom(idx0)
 
-				if LOG_RUN:
-					SOLUTION_PATH = RESULTS_FOLDER / f'{SAMPLER}_lam-{LAMBDA_FRAGMENT}-{LAMBDA_CLASH}-{LAMBDA_BOND}_score-{SCORE}.sdf'
-				else:
-					TEST_DIR = Path(f'test_{SAMPLER}_nr-{NUM_READS}_ns-{NUM_SWEEPS}')
-					TEST_DIR.mkdir(parents=True, exist_ok=True)
-					SOLUTION_PATH = TEST_DIR / f'{SAMPLER}_lam-{LAMBDA_FRAGMENT}-{LAMBDA_CLASH}-{LAMBDA_BOND}_score-{SCORE}.sdf'
+    decapped = editable.GetMol()
+    decapped.UpdatePropertyCache(strict=False)
+    Chem.FastFindRings(decapped)
+    return decapped
 
-				writer = Chem.SDWriter(SOLUTION_PATH)
-				writer.write(combined)
-				writer.close()
+
+with Chem.SDMolSupplier("./data/SDFs/fragment_1.sdf") as s1:
+    with Chem.SDMolSupplier("./data/SDFs/fragment_2.sdf") as s2:
+        with Chem.SDMolSupplier("./data/SDFs/fragment_3.sdf") as s3:
+            with Chem.SDMolSupplier("./data/SDFs/fragment_4.sdf") as s4:
+                i1, i2, i3, i4 = extract_poses(0, rows)
+                raw_mols = {1: s1[i1], 2: s2[i2], 3: s3[i3], 4: s4[i4]}
+                selected_mols = {
+                    frag_id: decap_fragment(mol, frag_id)
+                    for frag_id, mol in raw_mols.items()
+                }
+                offsets = fragment_atom_offsets(selected_mols)
+
+                combined = Chem.CombineMols(selected_mols[1], selected_mols[2])
+                combined = Chem.CombineMols(combined, selected_mols[3])
+                combined = Chem.CombineMols(combined, selected_mols[4])
+                editable_mol = Chem.EditableMol(combined)
+
+                anchor_indices_to_adjust = set()
+                for pair in BONDING_FRAGMENTS:
+                    if pair not in BOND_ANCHORS:
+                        raise ValueError(
+                            f"Missing anchor definition for bond pair {pair}. "
+                            f"Known anchors: {sorted(BOND_ANCHORS.keys())}"
+                        )
+                    fa, fb = pair
+                    aa, ab = BOND_ANCHORS[pair]
+                    atom_a = to_global_atom_idx(offsets, fa, aa)
+                    atom_b = to_global_atom_idx(offsets, fb, ab)
+                    editable_mol.AddBond(atom_a, atom_b, order=Chem.BondType.SINGLE)
+                    anchor_indices_to_adjust.update([atom_a, atom_b])
+
+                combined = editable_mol.GetMol()
+                for atom_idx in sorted(anchor_indices_to_adjust):
+                    combined.GetAtomWithIdx(atom_idx).SetNumExplicitHs(0)
+
+                Chem.SanitizeMol(combined)
+
+                if LOG_RUN:
+                    SOLUTION_PATH = RESULTS_FOLDER / (
+                        f"{SAMPLER}_lam-{LAMBDA_FRAGMENT}-{LAMBDA_CLASH}-{LAMBDA_BOND}_score-{SCORE}.sdf"
+                    )
+                else:
+                    TEST_DIR = Path(f"test_{SAMPLER}_nr-{NUM_READS}_ns-{NUM_SWEEPS}")
+                    TEST_DIR.mkdir(parents=True, exist_ok=True)
+                    SOLUTION_PATH = TEST_DIR / (
+                        f"{SAMPLER}_lam-{LAMBDA_FRAGMENT}-{LAMBDA_CLASH}-{LAMBDA_BOND}_score-{SCORE}.sdf"
+                    )
+
+                writer = Chem.SDWriter(SOLUTION_PATH)
+                writer.write(combined)
+                writer.close()
 
 
 # ## Metrics
@@ -1074,4 +1173,3 @@ if best_rmsd <= RMSD_CRITERION:
     print(f"SUCCESS (heavy-atom symmetry-aware RMSD <= {RMSD_CRITERION:.2f} A)")
 else:
     print(f"FAIL (heavy-atom symmetry-aware RMSD > {RMSD_CRITERION:.2f} A)")
-
