@@ -1,6 +1,6 @@
 18.97 -6.94 14.52
-16 16 16
-1 1 1
+14 14 14
+2 2 2
 docking_tools/aldr2/protein.pdbqt
 docking_tools/aldr2/fragment1.pdbqt docking_tools/aldr2/fragment2.pdbqt docking_tools/aldr2/fragment3.pdbqt docking_tools/aldr2/fragment4.pdbqt
 data/SDFs/fragment_1.sdf data/SDFs/fragment_2.sdf data/SDFs/fragment_3.sdf data/SDFs/fragment_4.sdf
