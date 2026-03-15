@@ -1,8 +1,8 @@
 18.97 -6.94 14.52
 14 14 14
 2 2 2
-docking_tools/aldr2/protein.pdbqt
-docking_tools/aldr2/fragment1.pdbqt docking_tools/aldr2/fragment2.pdbqt docking_tools/aldr2/fragment3.pdbqt docking_tools/aldr2/fragment4.pdbqt
+docking_tools/pdbqt/protein.pdbqt
+docking_tools/pdbqt/fragment1.pdbqt docking_tools/pdbqt/fragment2.pdbqt docking_tools/pdbqt/fragment3.pdbqt docking_tools/pdbqt/fragment4.pdbqt
 data/SDFs/fragment_1.sdf data/SDFs/fragment_2.sdf data/SDFs/fragment_3.sdf data/SDFs/fragment_4.sdf
 docking_tools/gnina_temp_config.txt
 docking_tools/temp_output
