@@ -1,5 +1,5 @@
-18.97 -6.94 14.52
-14 14 14
+8.361 4.889 22.333
+15 15 15
 2 2 2
 docking_tools/pdbqt/protein.pdbqt
 docking_tools/pdbqt/fragment1.pdbqt docking_tools/pdbqt/fragment2.pdbqt docking_tools/pdbqt/fragment3.pdbqt docking_tools/pdbqt/fragment4.pdbqt

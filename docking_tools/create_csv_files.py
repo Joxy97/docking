@@ -146,7 +146,7 @@ def build_parser():
     parser.add_argument(
         "--box-size",
         type=str,
-        default="14",
+        default="15",
         help="Box size token used to derive default poses dir: data/SDFs_{BOX_SIZE}_{DIVISIONS}.",
     )
     parser.add_argument(
